@@ -1,0 +1,4194 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+            
+    <!-- common menu loader -->
+    <script id="common_menu_loader" type="text/javascript" charset="utf-8"
+         data-service="frm" data-project="wot" data-realm="us" data-language="en" data-login_url="http://forum.worldoftanks.com/index.php?app=core&module=global&section=login&do=loginOpenId" data-logout_url="http://forum.worldoftanks.com/index.php?app=core&module=global&section=login&do=logoutoid" data-incomplete_profile_url="http://forum.worldoftanks.com/index.php?app=members&module=profile&do=docompleteaccount" data-token_url="http://forum.worldoftanks.com/menutoken" data-frontend_url="http://cdn-cm.gcdn.co" data-backend_url="http://cm-us.wargaming.net" data-open_links_in_new_tab="" data-notifications_enabled="1" data-chat_enabled="" data-incomplete_profile_notification_enabled="" data-intro_tooltips_enabled="1" data-registration_url="http://forum.worldoftanks.com/index.php?app=core&module=global&section=register" 
+        src="http://cdn-cm.gcdn.co/loader.min.js"></script>
+    <!--./common menu loader -->
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Game settings in preferences.xml - Game Guides and Tutorials - World of Tanks official forum</title>
+    <link rel="shortcut icon" href='http://cdn-frm-us.wargaming.net/4.5/favicon_wot.ico' />
+	<link rel="image_src" href='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/meta_image.png' />
+		<script type='text/javascript'>
+		//<![CDATA[
+			jsDebug			= 0; /* Must come before JS includes */
+			USE_RTE			= 0;
+			DISABLE_AJAX	= parseInt(0); /* Disables ajax requests where text is sent to the DB; helpful for charset issues */
+			inACP			= false;
+			var isRTL		= false;
+			var rtlIe		= '';
+			var rtlFull		= '';
+		//]]>
+		</script>
+		
+	
+			<link rel="stylesheet" type="text/css" title="Main" media="screen" href="http://cdn-frm-us.wargaming.net/4.5/style_css/master_css_wg/calendar_select.css" />
+	
+
+			<link rel="stylesheet" type="text/css" title="Main" media="screen,print" href="http://cdn-frm-us.wargaming.net/4.5/style_css/master_css_wg/ipb_common.css" />
+	
+
+			<link rel="stylesheet" type="text/css" title="Main" media="screen,print" href="http://cdn-frm-us.wargaming.net/4.5/style_css/master_css_wg/ipb_styles.css" />
+	
+
+			<link rel="stylesheet" type="text/css"  href="http://cdn-frm-us.wargaming.net/4.5/style_css/prettify.css" />
+	
+
+
+<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" title='Main' media="screen" href="http://cdn-frm-us.wargaming.net/4.5/style_css/master_css_wg/ipb_ie.css" />
+<![endif]-->
+<!--[if lte IE 8]>
+	<style type='text/css'>
+		.ipsLayout_content { width: 99.5%; }
+	</style>
+<![endif]-->
+
+	<!-- Forces resized images to an admin-defined size -->
+	<style type='text/css'>
+		img.bbc_img, div.post_body img {
+			max-width: 1400px !important;
+			max-height: 1400px !important;
+		}
+	</style>
+<meta property="og:title" content=""/>
+<meta property="og:site_name" content="World of Tanks official forum"/>
+<meta property="og:image" content="http://cdn-frm-us.wargaming.net/4.5/style_images/wg/meta_image.png"/>
+<meta property="og:type" content="article" />
+
+	
+		
+			<meta name="keywords" content="Game settings in preferencesxml  DISCLAIMER YOU ARE DOING ALL THIS AT YOUR OWN RISK IM NOT RESPONSIBLE FOR ANYTHING THAT MIGHT HAPPEN UNLESS IT WORKS THAN YOU CAN SAY THANK YOU  You can play around with different mostly video settings in the file preferencesxml You can find the file at following location - for Windows Vista or Windows 7 C\Users\User name\AppData\Roaming\wargamingnet\WorldOfTanks  - for Windows XP C\Documents and Settings\Admin\Application Data\wargamingnet\WorldOfTanks..." />
+		
+		
+		
+	
+
+		
+			<meta name="description" content="Game settings in preferences.xml - posted in Game Guides and Tutorials: 
+DISCLAIMER YOU ARE DOING ALL THIS AT YOUR OWN RISK. IM NOT RESPONSIBLE FOR ANYTHING THAT MIGHT HAPPEN, UNLESS IT WORKS THAN YOU CAN SAY THANK YOU 
+You can play around with different (mostly video) settings in the file preferences.xml
+You can find the file at following location:
+- for Windows Vista or Windows 7 (C:\Users\User name\AppData\Roaming\wargaming.net\WorldOfTanks) 
+- for Windows XP (C:\Documents and Settings\..." />
+		
+		
+		
+			<meta property="og:description" content="Game settings in preferences.xml - posted in Game Guides and Tutorials: 
+DISCLAIMER YOU ARE DOING ALL THIS AT YOUR OWN RISK. IM NOT RESPONSIBLE FOR ANYTHING THAT MIGHT HAPPEN, UNLESS IT WORKS THAN YOU CAN SAY THANK YOU 
+You can play around with different (mostly video) settings in the file preferences.xml
+You can find the file at following location:
+- for Windows Vista or Windows 7 (C:\Users\User name\AppData\Roaming\wargaming.net\WorldOfTanks) 
+- for Windows XP (C:\Documents and Settings\..." />
+		
+	
+
+		
+			<meta name="identifier-url" content="http://forum.worldoftanks.com%2Findex.php%3F%2Ftopic%2F823-game-settings-in-preferencesxml%2F" />
+		
+		
+			<meta property="og:url" content="http://forum.worldoftanks.com%2Findex.php%3F%2Ftopic%2F823-game-settings-in-preferencesxml%2F" />
+		
+		
+	
+
+		<meta property="og:title" content="Game settings in preferences.xml - Game Guides and Tutorials"/>
+		<meta property="og:site_name" content="World of Tanks official forum"/>
+		<meta property="og:image" content="http://cdn-frm-us.wargaming.net/4.5/style_images/wg/meta_image.png"/>
+		<meta property="og:type" content="article" />
+		
+		
+		<script type='text/javascript' src='http://cdn-frm-us.wargaming.net/4.5/js/3rd_party/prototype.js'></script>
+<script type='text/javascript' src='http://cdn-frm-us.wargaming.net/4.5/js/ipb.js?ipbv=bde1cf9b616603350d88c2aa010fb19f&amp;load=quickpm,hovercard,sharelinks,topic,like'></script>
+<script type='text/javascript' src='http://cdn-frm-us.wargaming.net/4.5/js/3rd_party/scriptaculous/scriptaculous-cache.js'></script>
+<script type="text/javascript" src='http://cdn-frm-us.wargaming.net/4.5/js/lang_cache/master_en_US.UTF-8/ipb.lang.js' charset='UTF-8'></script>
+
+<script type="text/javascript" src="//static-cds.gcdn.co/static/client/js/wgcds.js"></script>
+
+<script type="text/javascript">
+    var curLang = 'ru';
+    
+        
+            curLang= 'en';
+        
+    
+    window.CDS = window.CDS || {};
+        CDS.vars = {
+            parameters: {
+                host: 'cds.wargaming.net',
+                locale: curLang,
+                consumer: 'wot_forum_na',
+                accountId: 0
+            },
+            callbacks: {
+                onSuccess: function(element, response){
+                    if(element.style.display !== 'block'){
+                        element.style.display = 'block'
+                    }
+                }
+            }
+        };
+</script>
+
+
+
+<script type="text/javascript" src="http://cdn-frm-us.wargaming.net/4.5/js/auth.js"></script>
+
+	
+		
+			
+			
+			
+			
+				<link id="ipsCanonical" rel="canonical" href="http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/" />
+			
+		
+
+			
+			
+			
+			
+				<link rel='stylesheet' type='text/css' title='Main' media='print' href='http://cdn-frm-us.wargaming.net/4.5/style_css/master_css_wg/ipb_print.css' />
+			
+		
+
+			
+			
+			
+			
+				<link rel='next' href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__st__20' />
+			
+		
+
+			
+			
+			
+			
+				<link rel='last' href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__st__160' />
+			
+		
+
+			
+			
+			
+			
+				<link rel='up' href='http://forum.worldoftanks.com/index.php?/forum/36-game-guides-and-tutorials/' />
+			
+		
+
+			
+			
+			
+			
+				<link rel='author' href='http://forum.worldoftanks.com/index.php?/user/merig00/' />
+			
+		
+	
+
+		
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Comments" href="http://forum.worldoftanks.com/index.php?/rss/forums/1-comments/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Clan Wars" href="http://forum.worldoftanks.com/index.php?/rss/forums/2-clan-wars/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Discussão Geral" href="http://forum.worldoftanks.com/index.php?/rss/forums/3-discussao-geral/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Discusión General" href="http://forum.worldoftanks.com/index.php?/rss/forums/4-discusion-general/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Clãs - Discussão Geral" href="http://forum.worldoftanks.com/index.php?/rss/forums/5-clas-discussao-geral/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Foro para los Novatos" href="http://forum.worldoftanks.com/index.php?/rss/forums/7-foro-para-los-novatos/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Torneos" href="http://forum.worldoftanks.com/index.php?/rss/forums/8-torneos/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="World of Tanks News and Information" href="http://forum.worldoftanks.com/index.php?/rss/forums/9-world-of-tanks-news-and-information/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="New Players" href="http://forum.worldoftanks.com/index.php?/rss/forums/10-new-players/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="World of Tanks Game Discussion" href="http://forum.worldoftanks.com/index.php?/rss/forums/11-world-of-tanks-game-discussion/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Off Topic" href="http://forum.worldoftanks.com/index.php?/rss/forums/12-off-topic/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Contests" href="http://forum.worldoftanks.com/index.php?/rss/forums/13-contests/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Tournaments & E-Sports" href="http://forum.worldoftanks.com/index.php?/rss/forums/14-tournaments-e-sports/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Clans" href="http://forum.worldoftanks.com/index.php?/rss/forums/15-clans/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="All About Armored Vehicles" href="http://forum.worldoftanks.com/index.php?/rss/forums/16-all-about-armored-vehicles/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Support" href="http://forum.worldoftanks.com/index.php?/rss/forums/17-support/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="International Forums" href="http://forum.worldoftanks.com/index.php?/rss/forums/18-international-forums/" />
+			
+			
+			
+		
+	
+
+	
+
+
+
+<script type='text/javascript'>
+	//<![CDATA[
+		/* ---- URLs ---- */
+		ipb.vars['base_url'] 			= 'http://forum.worldoftanks.com/index.php?s=626d9f4e61f95554b447bfa91bec0ea7&';
+		ipb.vars['board_url']			= 'http://forum.worldoftanks.com';
+		ipb.vars['img_url'] 			= "http://cdn-frm-us.wargaming.net/4.5/style_images/wg";
+		ipb.vars['loading_img'] 		= 'http://cdn-frm-us.wargaming.net/4.5/style_images/wg/loading.gif';
+		ipb.vars['active_app']			= 'forums';
+		ipb.vars['upload_url']			= 'http://cdn-frm-us.wargaming.net/wot/us/uploads';
+		/* ---- Member ---- */
+		ipb.vars['member_id']			= parseInt( 0 );
+		ipb.vars['is_supmod']			= parseInt( 0 );
+		ipb.vars['is_admin']			= parseInt( 0 );
+		ipb.vars['secure_hash'] 		= '880ea6a14ea49e853634fbdc5015a024';
+		ipb.vars['session_id']			= '626d9f4e61f95554b447bfa91bec0ea7';
+		ipb.vars['twitter_id']			= 0;
+		ipb.vars['fb_uid']				= 0;
+		ipb.vars['auto_dst']			= parseInt( 0 );
+		ipb.vars['dst_in_use']			= parseInt(  );
+		ipb.vars['is_touch']			= false;
+		ipb.vars['member_group']		= {"g_mem_info":"0"}
+		/* ---- cookies ----- */
+		ipb.vars['cookie_id'] 			= 'frm_';
+		ipb.vars['cookie_domain'] 		= '.forum.worldoftanks.com';
+		ipb.vars['cookie_path']			= '/';
+		ipb.vars['cookie_immediate_name']= 'sso_attempt_immediate';
+		/* ---- Rate imgs ---- */
+		ipb.vars['rate_img_on']			= 'http://cdn-frm-us.wargaming.net/4.5/style_images/wg/star.png';
+		ipb.vars['rate_img_off']		= 'http://cdn-frm-us.wargaming.net/4.5/style_images/wg/star_off.png';
+		ipb.vars['rate_img_rated']		= 'http://cdn-frm-us.wargaming.net/4.5/style_images/wg/star_rated.png';
+		/* ---- Uploads ---- */
+		ipb.vars['swfupload_swf']		= 'http://cdn-frm-us.wargaming.net/4.5/js/3rd_party/swfupload/swfupload.swf';
+		ipb.vars['swfupload_enabled']	= true;
+		ipb.vars['use_swf_upload']		= ( '' == 'flash' ) ? true : false;
+		ipb.vars['swfupload_debug']		= false;
+		/* ---- Iframes ---- */
+        ipb.vars['iframe_max_width']        = parseInt(1366);
+        ipb.vars['iframe_min_width']        = parseInt(320);
+        ipb.vars['iframe_default_width']    = parseInt(640);
+        ipb.vars['iframe_max_height']       = parseInt(768);
+        ipb.vars['iframe_min_height']       = parseInt(240);
+        ipb.vars['iframe_default_height']   = parseInt(360);
+		/* ---- other ---- */
+		ipb.vars['highlight_color']     = "#ade57a";
+		ipb.vars['charset']				= "UTF-8";
+		ipb.vars['seo_enabled']			= 1;
+		
+		ipb.vars['seo_params']			= {"start":"-","end":"\/","varBlock":"\/page__","varSep":"__"};
+		ipb.vars['max_post_length']	    = parseInt( 100 );
+		
+		
+		/* Templates/Language */
+		ipb.templates['inlineMsg']		= "";
+		ipb.templates['ajax_loading'] 	= "<div id='ajax_loading'><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/ajax_loading.gif' alt='" + ipb.lang['loading'] + "' /></div>";
+		ipb.templates['close_popup']	= "";
+		ipb.templates['rss_shell']		= new Template("<ul id='rss_menu' class='ipbmenu_content'>#{items}</ul>");
+		ipb.templates['rss_item']		= new Template("<li><a href='#{url}' title='#{title}'>#{title}</a></li>");
+		
+		ipb.templates['autocomplete_wrap'] = new Template("<ul id='#{id}' class='ipb_autocomplete' style='width: 250px;'></ul>");
+		ipb.templates['autocomplete_item'] = new Template("<li id='#{id}' data-url='#{url}'><img src='#{img}' alt='' class='ipsUserPhoto ipsUserPhoto_mini' />&nbsp;&nbsp;#{itemvalue}</li>");
+		ipb.templates['page_jump']		= new Template("<div id='#{id}_wrap' class='ipbmenu_content'><h3 class='bar'>Jump to page</h3><p class='ipsPad'><input type='text' class='input_text' id='#{id}_input' size='8' /> <input type='submit' value='Go' class='input_submit add_folder' id='#{id}_submit' /></p></div>");
+		ipb.templates['global_notify'] 	= new Template("<div class='popupWrapper'><div class='popupInner'><div class='ipsPad'>#{message} #{close}</div></div></div>");
+		
+		ipb.templates['header_menu'] 	= new Template("<div id='#{id}' class='ipsHeaderMenu boxShadow'></div>");
+		
+		Loader.boot();
+	//]]>
+	</script>
+		
+			<!-- Google Tag Manager -->
+			<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M9MH62"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<script>
+			document.observe("dom:loaded", function() {
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-M9MH62');
+			});
+			</script>
+			<!-- End Google Tag Manager -->
+		
+    </head>
+	<body id='ipboard_body' class='project_wot realm_us' >
+	    <!-- common menu holder -->
+        <link rel="stylesheet" type="text/css" href="http://cdn-cm.gcdn.co/holder.css"/>
+        <div id="common_menu">
+            <noscript>
+                <div id="common_menu_frame_wrap">
+                    <iframe id="common_menu_frame" src="http://cm-us.wargaming.net/frame/?service=frm&project=wot&realm=us&language=en&login_url=http%3A%2F%2Fforum.worldoftanks.com%2Findex.php%3Fapp%3Dcore%26module%3Dglobal%26section%3Dlogin%26do%3DloginOpenId&logout_url=http%3A%2F%2Fforum.worldoftanks.com%2Findex.php%3Fapp%3Dcore%26module%3Dglobal%26section%3Dlogin%26do%3Dlogoutoid&incomplete_profile_url=http%3A%2F%2Fforum.worldoftanks.com%2Findex.php%3Fapp%3Dmembers%26module%3Dprofile%26do%3Ddocompleteaccount&token_url=http%3A%2F%2Fforum.worldoftanks.com%2Fmenutoken&frontend_url=http%3A%2F%2Fcdn-cm.gcdn.co&backend_url=http%3A%2F%2Fcm-us.wargaming.net&open_links_in_new_tab=&notifications_enabled=1&chat_enabled=&incomplete_profile_notification_enabled=&intro_tooltips_enabled=1&registration_url=http%3A%2F%2Fforum.worldoftanks.com%2Findex.php%3Fapp%3Dcore%26module%3Dglobal%26section%3Dregister" ></iframe>
+                </div>
+            </noscript>
+        </div>
+        <script type="text/javascript" charset="utf-8">
+            if (window.WG && WG.CommonMenu) {
+                WG.CommonMenu.trigger('holder_ready');
+                WG.CommonMenu.on('login', function(evt, wgcm) {
+                    evt.preventDefault();
+                    ipb.auth.onClickLogin('880ea6a14ea49e853634fbdc5015a024');
+                    return false;
+                });
+            } else {
+                (function(text, url) {
+                    var common_menu_container = document.getElementById('common_menu');
+                    var st = document.createElement('style');
+                        st.innerHTML = 'body{border:0;margin:0;padding:0}#common_menu{min-height:37px;background-color:#050505;position:relative;z-index:25000}#common_menu_frame{margin:0;width:100%;border:none;overflow:hidden;position:relative;z-index:10}#common_menu_frame_wrap{height:85px}';
+                    common_menu_container.parentNode.insertBefore(st, common_menu_container);
+                    common_menu_container.innerHTML =
+                    '<div style="max-width: 1340px"><a style="float: right; color: #707273; text-decoration: none; line-height: 37px; vertical-align: middle;" href="' + url + '" class="cm-link" id="cmdown-link">' + text + '</a></div>';
+                }('Sign In', 'http://forum.worldoftanks.com/index.php?app=core&module=global&section=login&do=loginOpenId'));$("cmdown-link").on("click", function(evt, elem){evt.preventDefault();ipb.auth.onClickLogin("880ea6a14ea49e853634fbdc5015a024");return false;});
+            }
+        </script>
+        <!--./common menu holder -->
+		<p id='content_jump' class='hide'><a id='topmost'></a><a href='#j_content' title='Jump to content' accesskey='m'>Jump to content</a></p>
+		<div id='ipbwrapper'>
+		    			<!-- ::: BRANDING STRIP: Logo and search box ::: -->
+			<div id='branding' style='background-image:url(http://cdn-frm-us.wargaming.net/wot/us/cache/header_packages/896_20181009_wot_na_v1_2-bg.jpg); background-color:#0e0e0e'>
+				<div class='main_width'>
+                    
+                	<div id='logo'>
+						
+						    <a href='http://forum.worldoftanks.com' title='Go to community index' rel="home" accesskey='1'><img src='http://cdn-frm-us.wargaming.net/wot/us/cache/header_packages/896_20181009_wot_na_v1_2-logo.png' alt='Logo' /></a>
+						
+					</div>
+				</div>
+			</div>
+			<!-- ::: APPLICATION TABS ::: -->
+			<div id='primary_nav' class='clearfix'>
+				<div class='main_width'>
+                	<div id='search' class='right'>
+	<form action="http://forum.worldoftanks.com/index.php?app=core&amp;module=search&amp;do=search&amp;fromMainBar=1" method="post" id='search-box' >
+		<fieldset>
+			<label for='main_search' class='hide'>Search</label>
+			<a href='http://forum.worldoftanks.com/index.php?app=core&amp;module=search&amp;search_in=forums' title='Advanced Search' accesskey='4' rel="search" id='adv_search' class='right'>Advanced</a>
+			<span id='search_wrap' class='right'>
+				<input type='text' id='main_search' name='search_term' class='inactive' size='17' tabindex='6' />
+				<span class='choice ipbmenu clickable' id='search_options' style='display: none'></span>
+				<ul id='search_options_menucontent' class='ipbmenu_content ipsPad' style='display: none'>
+					<li class='title'><strong>Search section:</strong></li>
+					<li class='special'>
+							<label for='s_topic' title='This topic'>
+								
+									<input type='radio' name='search_app' value="forums:topic:823" class='input_radio' id='s_topic' checked="checked" />
+								
+								<strong>This topic</strong>
+							</label>
+						</li>
+					
+					
+					<li class='app'><label for='s_forums' title='Forums'><input type='radio' name='search_app' class='input_radio' id='s_forums' value="forums"  />Forums</label></li>
+                    
+                    
+						
+					
+
+						
+					
+
+						
+					
+
+						
+					
+				</ul>
+				<input type='submit' class='submit_input clickable' value='Search' />
+			</span>
+		</fieldset>
+	</form>
+</div>
+                                        
+                    					<ul class='ipsList_inline' id='community_app_menu'>
+						
+							<li class="left">
+								<a id="quickNavLaunch" href="http://forum.worldoftanks.com/index.php?app=core&amp;module=global&amp;section=navigation&amp;inapp=forums" rel="quickNavigation" accesskey='9' title='Open Quick Navigation'><span>&nbsp;</span></a>
+							</li>
+						
+                        
+                        
+                            <li class='left'>
+                                <a id="user_link" class="primary-nav_link" href="http://forum.worldoftanks.com/index.php?/user/guest/"  title='Go to your Profile'>
+                                    <span class="primary-nav_ico primary-nav_ico__user">&nbsp;</span>
+                                </a>
+                            </li>
+                        
+                        
+                    </ul>
+				</div>
+				<script type='text/javascript'>
+					if( $('primary_nav') ){	ipb.global.activateMainMenu(); }
+				</script>
+			</div>
+			<!-- ::: MAIN CONTENT AREA ::: -->
+			<div id='content' class='clearfix'>
+			
+                <div class="b-main-b4n js-wgcds-content-item" data-wgcds-place="main_1680x90_2"></div>
+                <script type="text/javascript">
+                    window.wgcds = new WGCDS.Loader('.js-wgcds-content-item', CDS.vars);
+                </script>
+            
+				<!-- ::: NAVIGATION BREADCRUMBS ::: -->
+				<div id='secondary_navigation' class='clearfix'>
+						<ol class='breadcrumb top ipsList_inline left'>
+														<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+									<a href='http://forum.worldoftanks.com/' itemprop="url">
+										<span itemprop="title">World of Tanks official forum</span>
+									</a>
+								</li>
+								
+							
+								<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+									<span class='nav_sep'>&rarr;</span>
+									 <a href='http://forum.worldoftanks.com/index.php?/forum/151-game-discussion/' title='Return to Game Discussion' itemprop="url"><span itemprop="title">Game Discussion</span></a>
+								</li>
+								
+							
+
+								<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+									<span class='nav_sep'>&rarr;</span>
+									 <a href='http://forum.worldoftanks.com/index.php?/forum/35-general-discussion/' title='Return to General Discussion' itemprop="url"><span itemprop="title">General Discussion</span></a>
+								</li>
+								
+							
+
+								<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+									<span class='nav_sep'>&rarr;</span>
+									 <a href='http://forum.worldoftanks.com/index.php?/forum/36-game-guides-and-tutorials/' title='Return to Game Guides and Tutorials' itemprop="url"><span itemprop="title">Game Guides and Tutorials</span></a>
+								</li>
+								
+							
+						</ol>
+					</div>
+					<br />
+				<!-- ::: CONTENT ::: -->
+				
+				
+
+<script type="text/javascript">
+	ipb.topic.inSection = 'topicview';
+	ipb.topic.topic_id  = 823;
+	ipb.topic.forum_id  = 36;
+	ipb.topic.start_id  = 0;
+	ipb.topic.topPid    = 0;
+	ipb.topic.counts    = { postTotal: 166,
+							curStart:  ipb.topic.start_id,
+							perPage:   20 };
+	ipb.topic.nextSearch = ('{}').evalJSON(true);
+	//Search Setup
+	ipb.vars['search_type']			= 'forum';
+	ipb.vars['search_type_id']		= 36;
+	ipb.vars['search_type_2']		= 'topic';
+	ipb.vars['search_type_id_2']	= 823;
+	
+	
+	// Delete stuff set up
+	ipb.topic.deleteUrls['hardDelete'] = new Template( ipb.vars['base_url'] + "app=forums&module=moderate&section=moderate&do=04&f=36&t=823&st=&auth_key=880ea6a14ea49e853634fbdc5015a024&p=#{pid}" );
+	ipb.topic.deleteUrls['softDelete'] = new Template( ipb.vars['base_url'] + "app=forums&module=moderate&section=moderate&do=postchoice&tact=sdelete&t=823&f=36&auth_key=880ea6a14ea49e853634fbdc5015a024&selectedpids[#{pid}]=#{pid}&pid=#{pid}" );
+	
+	
+	ipb.templates['post_moderation'] = new Template("<div id='comment_moderate_box' class='ipsFloatingAction' style='display: none'><span class='desc'>With <span id='comment_count'>#{count}</span> checked posts: </span><select id='tactInPopup' class='input_select'><option value='approve'>Approve</option><option value='unapprove'>Set Invisible (Unapprove Post)</option><option value='delete'>Hide</option><option value='sundelete'>Unhide</option><option value='deletedo'>Delete</option><option value='merge'>Merge</option><option value='split'>Split</option><option value='move'>Move</option></select>&nbsp;&nbsp;<input type='button' class='input_submit' id='submitModAction' value='Go' /></div>");
+</script>
+
+
+
+
+<div class='__like right' data-app="forums" data-area="topics" data-relid="823" data-isfave="">
+	<span class='ipsButton_extra _fmore clickable' title='47 member(s) follow this topic' data-tooltip="47 member(s) follow this topic"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/icon_users.png' /> <strong>47</strong></span>
+	
+</div>
+<script type="text/javascript">
+	var FAVE_TEMPLATE = new Template( "<h3>Unfollow this topic</h3><div class='ipsPad'><span class='desc'>If you unfollow this topic you will no longer receive any notifications</span><br /><p class='ipsForm_center'><input type='button' value='Unfollow this topic' class='input_submit _funset' /></p></div>");
+</script>
+
+	<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_medium left' />
+
+<div itemscope itemtype="http://schema.org/Article" class='ipsBox_withphoto'>
+	
+	<h1 itemprop="name" class='ipsType_pagetitle'>Game settings in preferences.xml</h1>
+	<div class='desc lighter blend_links'>
+		 Started by <span itemprop="creator">merig00</span>, <span itemprop="dateCreated">Jul 08 2010 - 17:23</span>
+	</div>
+	
+	<meta itemprop="interactionCount" content="UserComments:1" />
+</div>
+
+
+<br />
+<div class='topic_controls'>
+    <div class='pagination clearfix left '>
+	    <ul class='ipsList_inline left pages'>
+	    <li class='pagejump clickable pj0830540001'>
+                <a href='#'>Page 1 of 9 <!--<img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/dropdown.png' alt='+' />--></a>
+                <script type='text/javascript'>
+                    ipb.global.registerPageJump( '0830540001', { url: "http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/", stKey: 'st', perPage: 20, totalPages: 9, anchor: '#topmost'  } );
+                </script>
+            </li>
+        </ul>
+		<ul class='ipsList_inline back left'>
+			
+			
+		</ul>
+		<ul class='ipsList_inline left pages'>
+			
+				
+					
+						<li class='page active'>1</li>
+					
+				
+
+					
+						<li class='page'><a href="http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__st__20#topmost" title="2">2</a></li>
+					
+				
+
+					
+						<li class='page'><a href="http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__st__40#topmost" title="3">3</a></li>
+					
+				
+			
+		</ul>
+		<ul class='ipsList_inline forward left'>
+			
+				<li class='next'><a href="http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__st__20#topmost" title="Next page" rel='next'>Next</a></li>
+			
+			
+				<li class='last'><a href="http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__st__160#topmost" title="Go to last page" rel='last'>&raquo;</a></li>
+			
+    	</ul>
+	</div>
+    <ul class='topic_buttons'>
+        
+        
+        <li class='important'>
+                
+                        <span><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/lock.png' alt='This topic is locked' /> This topic is locked</span>
+                    
+            </li>
+    </ul>
+</div>
+
+<div class='maintitle clear clearfix'>
+	<span class='ipsType_small'>
+		165 replies to this topic
+	</span>
+</div>
+
+<div class='topic hfeed clear clearfix'>
+	
+
+	<div class='ipsBox'>
+		<div class='ipsBox_container' id='ips_Posts'>
+						
+				<!--post:17651-->
+
+<div class=' post_block hentry clear clearfix ' id='post_id_17651'>		<a id='entry17651'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">merig00
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__17651#entry17651' rel='bookmark' title='Game settings in preferences.xmlLink to post #1'>
+					
+					#1
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-08T16:23:07+00:00">Jul 08 2010 - 17:23</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Major</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000007290" hovercard-id="merig00" href="http://forum.worldoftanks.com/index.php?/user/merig00-1000007290/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">416</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">2,976</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000001031/' title='TB-H' rel='home' target='_blank'>[TB-H]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000001031' title='TB-H' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_031/1000001031/emblem_24x24.png" alt="TB-H"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>06-14-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->
+<span style="color:#ff0000;"><strong class="bbc">DISCLAIMER YOU ARE DOING ALL THIS AT YOUR OWN RISK. I'M NOT RESPONSIBLE FOR ANYTHING THAT MIGHT HAPPEN, UNLESS IT WORKS THAN YOU CAN SAY THANK YOU <img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_emoticons/wot/Smile_teethhappy.gif" class="bbc_emoticon" alt=":D"></strong></span><br><br>
+You can play around with different (mostly video) settings in the file preferences.xml<br><br>
+You can find the file at following location:<br><br>
+- for Windows Vista or Windows 7 (C:\Users\User name\AppData\Roaming\wargaming.net\WorldOfTanks) <br>
+- for Windows XP (C:\Documents and Settings\Admin\Application Data\wargaming.net\WorldOfTanks) 						 						<br><p class="citation"><a class="snapback bbc_url" href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=32761"><img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_images/wg/snapback.png" alt="View Post"></a>Ninja2dan, on Jul 19 2010 - 04:36, said:</p>
+<div class="blockquote"><div class="quote">
+In Windows Vista, the AppData folder is hidden. To show it, go to your C:\Users\*UserName* (by default it's admin) folder and from the toolbar, select Tools&gt;Folder Options... and click on the View tab. Under the section Advanced Settings you'll see a lot of check-boxes. Select the option to show hidden and system files, as the current selection will be hiding those folders/files. You can now view/access the AppData/W/ folder.<br>
+</div></div>
+<br>
+You can edit it with Notepad<br><br>
+Turn on/off FPS and ping on the screen: false - off, true - on<br>
+&lt;showFPS&gt; false &lt;/showFPS&gt;<br><br>
+SKY_LIGHT_MAP, shadows from the clouds. 0 - on. 1- off. Default setting - off.<br><br>
+MRT_DEPTH, special rendering with use of depth buffer. 0 - on. 1- off. Might increase fps on new video cards. Default setting - off. Requires client reboot.<br><br>
+SHADER_VERSION_CAP. shader version: 0 - 3, 1 - 2. Default = 0.<br><br>
+TEXTURE_QUALITY. : 0 - max, 1 - medium, 2 - minimal. This setting puts the most strain on the used system and video memories.<br><br>
+TEXTURE_FILTERING. : 0 - anisotropic 16х, 1 - anisotropic 8х, 2 - anisotropic 4х, 3 - anisotropic 2х, 4 - trilinear.<br><br>
+SHADOWS_QUALITY. Quality of tank's shadow: from 0 - max to 3 - no shadows at all.<br><br>
+SHADOWS_COUNT. Number of tank's shadows: from 0 = 32 shadows to 6 = 1 shadow.<br><br>
+TERRAIN_MESH_RESOLUTION. : 0 - high, 1 - medium. 2 - low.<br><br>
+SPEEDTREE_QUALITY. Quality of trees and bushes: from 0 - high to 3 - very low.<br><br>
+WATER_QUALITY. : from 0 - high to 3 - very low.<br><br>
+FAR_PLANE. Rendering depth (how far you can see): from 0 - the farthest to 2 - 50% from max. (I'd keep it at 0 unless you video car really sucks)<br><br>
+FLORA_DENSITY. grass density: от 0 - max, to 4 - no grass at all.<br><br>
+OBJECT_LOD. details on objects: 0 - max, to 2 - low lever of details will turn on at close distance.<br><br>
+Window mode:<br>
+&lt;windowed&gt; false - off, true - onn<br>
+Screen resolution: if you need display resolution, which is not available from the menu, find the following lines<br>
+&lt;fullscreenWidth&gt; 1024 &lt;/fullscreenWidth&gt;<br>
+&lt;fullscreenHeight&gt; 768 &lt;/fullscreenHeight&gt;<br>
+and change the corresponding values. <br><br>
+Vertical Sync:<br>
+&lt;waitVSync&gt; false - off, true - on<br><br>
+tripleBuffering:<br>
+&lt;tripleBuffering&gt; false - off, true - on<br><br>
+Audio settings:<br>
+&lt;soundPrefs&gt; 0.000000 - off, 1.000000 on on medium lvl<br>
+the following are self-explanatory:D<br>
+&lt;masterVolume&gt;<br>
+&lt;volume_vehicles&gt;<br>
+&lt;volume_music&gt;<br>
+&lt;volume_effects&gt;<br>
+&lt;volume_ambient&gt;<br>
+&lt;volume_voice&gt;<br><br>
+&lt;sniperMode&gt; mouse sensitivity in sniper mode<br><br>
+&lt;arcadeMode&gt; mouse sensitivity in arcade mode<br><br>
+&lt;strategicMode&gt; mouse sensitivity in howitzer mode<br><br>
+Inversion:<br>
+&lt;horzInvert&gt; false &lt;/horzInvert&gt; - X-axis<br>
+&lt;vertInvert&gt; false &lt;/vertInvert&gt; - Y-axis<br><br>
+lobbyTooltipDelay delay in hints display in lobby<br><br><br><p class="citation"><a class="snapback bbc_url" href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=34931"><img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_images/wg/snapback.png" alt="View Post"></a>Skarovich, on Jul 20 2010 - 21:30, said:</p>
+<div class="blockquote"><div class="quote">
+This is a Field of View fix. (If your game appears stretched or squashed)<br><br>
+1. Find your preferences.xml<br>
+2. Edit the line <pre class="prettyprint">&lt;aspectRatio&gt; 1.250000 &lt;/aspectRatio&gt;</pre> based on one of the following: <br>
+If your using a 16:10 resolution (1440x900, 1920x1200, etc) set it to 1.600000<br>
+If your using a 16:9 resolution (1280, 720, 1920x1080, etc) set it to 1.778000<br>
+If your using a 4:3 resolution (1024x768, 1600x1200, etc) set it to 1.333000<br>
+If your using a 5:4 resolution, then you are weird. But set it to 1.250000<br>
+3. Save, and right click on preferences.xml, select preferences.<br>
+4. Check [Read-Only] at the bottom and accept.<br><br>
+This will have the unfortunate side effect of not saving any of your in-game options if you change them after doing this fix. To allow changing of the options again, you'll have to remove the [Read-Only] tag. But if you already have all your setting like you want them already, then your all set.<br><br>
+Note: Double and Triple monitor set ups will require a different aspect ratio, but I'm assuming that if you know enough to properly run double/triple-head, you know what aspect ratio you are running. Rule of thumb: Width divided by Height equals Ratio. (Example: 1440/900=1.6) This formula can be used for all resolutions, in case you don't know what aspect ratio you are running.<br>
+</div></div>
+<br><br><br><br>
+The following are obsolete and not being supported as of right now:<br><br>
+FOOT_PRINTS<br><br>
+BUMPED_RENDERING<br><br><span style="color:#ff0000;"><strong class="bbc"><br>
+IMPORTANT: DO NOT GIVE YOUR FILE TO OTHER USERS. THIS FILE CONTAINS YOUR LOGIN AND PASSWORD!!!!<br></strong></span>
+
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_17651', { domLikeStripId: 'like_post_17651', app: 'forums', type: 'pid', typeid: '17651' }, parseInt('22') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.17651-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_17651' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(17651);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_17651') )
+        {
+            $('multiq_17651').show();
+        }
+        if( $('toggle_post_17651') )
+        {
+            $('toggle_post_17651').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[17651] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:17655-->
+
+<div class='post_block__colored post_block hentry clear clearfix ' id='post_id_17655'>		<a id='entry17655'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">merig00
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__17655#entry17655' rel='bookmark' title='Game settings in preferences.xmlLink to post #2'>
+					
+					#2
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-08T16:23:31+00:00">Jul 08 2010 - 17:23</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Major</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000007290" hovercard-id="merig00" href="http://forum.worldoftanks.com/index.php?/user/merig00-1000007290/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">416</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">2,976</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000001031/' title='TB-H' rel='home' target='_blank'>[TB-H]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000001031' title='TB-H' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_031/1000001031/emblem_24x24.png" alt="TB-H"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>06-14-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->
+<span style="color:#ff0000;"><strong class="bbc">DISCLAIMER YOU ARE DOING ALL THIS AT YOUR OWN RISK. I'M NOT RESPONSIBLE FOR ANYTHING THAT MIGHT HAPPEN, UNLESS IT WORKS THAN YOU CAN SAY THANK YOU <img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_emoticons/wot/biggrin.gif" class="bbc_emoticon" alt=":D"></strong></span><br><br><br>
+Also if you really need to boost FPS you can remove some file:<br><br><strong class="bbc">REMOVING CLOUDS:</strong><br>
+Find the following folder WOT=&gt;Res=&gt;Maps=&gt;Skyboxes and rename Skyboxes for example as Skyboxes2<br><br><strong class="bbc">REMOVING FIRE AND SMOKE FROM BURNING TANKS:</strong><br>
+Find the following folder WOT=&gt;Res=&gt;particles=&gt;Tank<br>
+Rename the files containing the following in their names<br>
+Explosion<br>
+Fire<br>
+Flaming<br>
+Add number 2 to the name (i.e. fire_12/fire_22/fire_32 etc.)<br><br><br><strong class="bbc">REMOVING SMOKE FROM TANK EXHAUST</strong><br>
+Get to World_of_Tanks_closed_Beta\res\particles\Tank<br><br>
+Find files engine_exit_diesel and engine_exit_gass<br><br>
+Replace them with files attached to this post. Don't forget to save somewhere the original files.<strong class="bbc"><br></strong>
+
+					<div id='attach_wrap' class='clearfix attach_wrap'>
+	<h4>Attached Files</h4>
+	<ul>
+		
+			<li class='attachment'>
+				<img src="http://cdn-frm-us.wargaming.net/4.5/style_extra/mime_types/script.gif" alt="Attached File" />
+&nbsp;
+<strong class="attach_filename">engine_exit_diesel.xml</strong> &nbsp;&nbsp;<span class='desc'><strong>955bytes</strong></span>
+			</li>
+		
+
+			<li class='attachment'>
+				<img src="http://cdn-frm-us.wargaming.net/4.5/style_extra/mime_types/script.gif" alt="Attached File" />
+&nbsp;
+<strong class="attach_filename">engine_exit_gass.xml</strong> &nbsp;&nbsp;<span class='desc'><strong>955bytes</strong></span>
+			</li>
+		
+	</ul>
+</div>
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_17655', { domLikeStripId: 'like_post_17655', app: 'forums', type: 'pid', typeid: '17655' }, parseInt('13') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.17655-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_17655' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(17655);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_17655') )
+        {
+            $('multiq_17655').show();
+        }
+        if( $('toggle_post_17655') )
+        {
+            $('toggle_post_17655').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[17655] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:17686-->
+
+<div class=' post_block hentry clear clearfix ' id='post_id_17686'>		<a id='entry17686'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">dooston
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__17686#entry17686' rel='bookmark' title='Game settings in preferences.xmlLink to post #3'>
+					
+					#3
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-08T16:26:52+00:00">Jul 08 2010 - 17:26</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Staff sergeant</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000005101" hovercard-id="dooston" href="http://forum.worldoftanks.com/index.php?/user/dooston-1000005101/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-6654.png?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">178</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">451</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000000002/' title='TB' rel='home' target='_blank'>[TB]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000000002' title='TB' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_002/1000000002/emblem_24x24.png" alt="TB"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>07-06-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->thanks dude i have had some problems with minor lag issues  because of my laptop, not that i saw people disappearing and appearing but my mouse movement was delayed a bit and aiming was pretty dificult. and sometimes it stutterd.
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_17686', { domLikeStripId: 'like_post_17686', app: 'forums', type: 'pid', typeid: '17686' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.17686-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_17686' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(17686);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_17686') )
+        {
+            $('multiq_17686').show();
+        }
+        if( $('toggle_post_17686') )
+        {
+            $('toggle_post_17686').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[17686] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:17797-->
+
+<div class='post_block__colored post_block hentry clear clearfix ' id='post_id_17797'>		<a id='entry17797'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">panzergulo
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__17797#entry17797' rel='bookmark' title='Game settings in preferences.xmlLink to post #4'>
+					
+					#4
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-08T16:51:15+00:00">Jul 08 2010 - 17:51</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>First lieutenant</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000002665" hovercard-id="panzergulo" href="http://forum.worldoftanks.com/index.php?/user/panzergulo-1000002665/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/profile/default_large.png' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">0</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">642</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>07-03-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->Thank you very much. I'll check the invert y-axis as soon as possible.
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_17797', { domLikeStripId: 'like_post_17797', app: 'forums', type: 'pid', typeid: '17797' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_17797' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(17797);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_17797') )
+        {
+            $('multiq_17797').show();
+        }
+        if( $('toggle_post_17797') )
+        {
+            $('toggle_post_17797').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[17797] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:18078-->
+
+<div class=' post_block hentry clear clearfix ' id='post_id_18078'>		<a id='entry18078'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">merig00
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__18078#entry18078' rel='bookmark' title='Game settings in preferences.xmlLink to post #5'>
+					
+					#5
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-08T18:56:41+00:00">Jul 08 2010 - 19:56</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Major</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000007290" hovercard-id="merig00" href="http://forum.worldoftanks.com/index.php?/user/merig00-1000007290/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">416</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">2,976</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000001031/' title='TB-H' rel='home' target='_blank'>[TB-H]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000001031' title='TB-H' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_031/1000001031/emblem_24x24.png" alt="TB-H"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>06-14-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->You should check this topic out <a href="http://forum.worldoftanks.com/index.php?/topic/864-read-first-all-guides-for-your-problems-guides/page__pid__18056__st__0&amp;#entry18056" class="bbc_url" title="">http://forum.worldof...__0</a><br><br>
+I don't have Vista so use your search function to look up that file
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_18078', { domLikeStripId: 'like_post_18078', app: 'forums', type: 'pid', typeid: '18078' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.18078-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_18078' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(18078);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_18078') )
+        {
+            $('multiq_18078').show();
+        }
+        if( $('toggle_post_18078') )
+        {
+            $('toggle_post_18078').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[18078] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:19101-->
+
+<div class='post_block__colored post_block hentry clear clearfix ' id='post_id_19101'>		<a id='entry19101'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">gizaman
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__19101#entry19101' rel='bookmark' title='Game settings in preferences.xmlLink to post #6'>
+					
+					#6
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-09T09:31:17+00:00">Jul 09 2010 - 10:31</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>First lieutenant</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000008562" hovercard-id="gizaman" href="http://forum.worldoftanks.com/index.php?/user/gizaman-1000008562/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/profile/default_large.png' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">0</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">845</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>07-08-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->You need to move the files for the engine_exit_gass and engine_exit_diesel<br>
+They are in the russian forum and you cant access them with an european only account.!!!<br><br><br>
+Also there are new modifiers in the file that is not described like water_simulation...<br><br>
+Far_plane is default 1 as I see it. That is a DISGRACE, new players cant see so far as they should....<br><br>
+Must talk to developers again...
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_19101', { domLikeStripId: 'like_post_19101', app: 'forums', type: 'pid', typeid: '19101' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_19101' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(19101);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_19101') )
+        {
+            $('multiq_19101').show();
+        }
+        if( $('toggle_post_19101') )
+        {
+            $('toggle_post_19101').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[19101] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:19367-->
+
+<div class=' post_block hentry clear clearfix ' id='post_id_19367'>		<a id='entry19367'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">merig00
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__19367#entry19367' rel='bookmark' title='Game settings in preferences.xmlLink to post #7'>
+					
+					#7
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-09T13:02:16+00:00">Jul 09 2010 - 14:02</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Major</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000007290" hovercard-id="merig00" href="http://forum.worldoftanks.com/index.php?/user/merig00-1000007290/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">416</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">2,976</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000001031/' title='TB-H' rel='home' target='_blank'>[TB-H]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000001031' title='TB-H' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_031/1000001031/emblem_24x24.png" alt="TB-H"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>06-14-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->Good catch!<br>
+Hmm are you sure about Far_plane? Do you have your graphics on max?
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_19367', { domLikeStripId: 'like_post_19367', app: 'forums', type: 'pid', typeid: '19367' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.19367-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_19367' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(19367);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_19367') )
+        {
+            $('multiq_19367').show();
+        }
+        if( $('toggle_post_19367') )
+        {
+            $('toggle_post_19367').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[19367] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:20405-->
+
+<div class='post_block__colored post_block hentry clear clearfix ' id='post_id_20405'>		<a id='entry20405'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">Palora
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__20405#entry20405' rel='bookmark' title='Game settings in preferences.xmlLink to post #8'>
+					
+					#8
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-10T02:39:29+00:00">Jul 10 2010 - 03:39</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Staff sergeant</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000001438" hovercard-id="palora" href="http://forum.worldoftanks.com/index.php?/user/palora-1000001438/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-415.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">0</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">322</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>03-17-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->Any way to remove, or tune down the particle effects from the smoke when the gun fires, it slows down my pc when i'm zoomed in/1st person.
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_20405', { domLikeStripId: 'like_post_20405', app: 'forums', type: 'pid', typeid: '20405' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.20405-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_20405' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(20405);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_20405') )
+        {
+            $('multiq_20405').show();
+        }
+        if( $('toggle_post_20405') )
+        {
+            $('toggle_post_20405').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[20405] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:20407-->
+
+<div class=' post_block hentry clear clearfix ' id='post_id_20407'>		<a id='entry20407'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">merig00
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__20407#entry20407' rel='bookmark' title='Game settings in preferences.xmlLink to post #9'>
+					
+					#9
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-10T02:43:55+00:00">Jul 10 2010 - 03:43</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Major</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000007290" hovercard-id="merig00" href="http://forum.worldoftanks.com/index.php?/user/merig00-1000007290/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">416</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">2,976</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000001031/' title='TB-H' rel='home' target='_blank'>[TB-H]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000001031' title='TB-H' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_031/1000001031/emblem_24x24.png" alt="TB-H"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>06-14-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->
+<p class="citation"><a class="snapback bbc_url" href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=20405"><img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_images/wg/snapback.png" alt="View Post"></a>Palora, on Jul 10 2010 - 03:39, said:</p>
+<div class="blockquote"><div class="quote">
+Any way to remove, or tune down the particle effects from the smoke when the gun fires, it slows down my pc when i'm zoomed in/1st person.<br>
+</div></div>
+Should be in the same folder WOT=&gt;Res=&gt;particles=&gt;Tank I haven't had a problem with that so haven't look for it. Dig around there on your own risk. If it works report back <img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_emoticons/wot/smile.gif" class="bbc_emoticon" alt=":)">
+
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_20407', { domLikeStripId: 'like_post_20407', app: 'forums', type: 'pid', typeid: '20407' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.20407-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_20407' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(20407);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_20407') )
+        {
+            $('multiq_20407').show();
+        }
+        if( $('toggle_post_20407') )
+        {
+            $('toggle_post_20407').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[20407] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:20526-->
+
+<div class='post_block__colored post_block hentry clear clearfix ' id='post_id_20526'>		<a id='entry20526'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">merig00
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__20526#entry20526' rel='bookmark' title='Game settings in preferences.xmlLink to post #10'>
+					
+					#10
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-10T06:08:42+00:00">Jul 10 2010 - 07:08</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Major</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000007290" hovercard-id="merig00" href="http://forum.worldoftanks.com/index.php?/user/merig00-1000007290/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">416</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">2,976</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000001031/' title='TB-H' rel='home' target='_blank'>[TB-H]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000001031' title='TB-H' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_031/1000001031/emblem_24x24.png" alt="TB-H"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>06-14-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->
+<p class="citation"><a class="snapback bbc_url" href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=20508"><img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_images/wg/snapback.png" alt="View Post"></a>stevent, on Jul 10 2010 - 06:12, said:</p>
+<div class="blockquote"><div class="quote">
+is there something like hud pov ? I want to change position of the minimap closer to the center of the screen<br>
+(i use triple monitor)<br><br>
+ty<br>
+</div></div>
+Nothing like that yet. Create a topic in suggestions forum.
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_20526', { domLikeStripId: 'like_post_20526', app: 'forums', type: 'pid', typeid: '20526' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.20526-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_20526' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(20526);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_20526') )
+        {
+            $('multiq_20526').show();
+        }
+        if( $('toggle_post_20526') )
+        {
+            $('toggle_post_20526').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[20526] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:20573-->
+
+<div class=' post_block hentry clear clearfix ' id='post_id_20573'>		<a id='entry20573'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">Armitxes
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__20573#entry20573' rel='bookmark' title='Game settings in preferences.xmlLink to post #11'>
+					
+					#11
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-10T07:29:42+00:00">Jul 10 2010 - 08:29</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'> </p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000001660" hovercard-id="Armitxes" href="http://forum.worldoftanks.com/index.php?/user/armitxes-1000001660/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-3074.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">0</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">1,148</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>07-02-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->
+<p class="citation">Quote</p>
+<div class="blockquote"><div class="quote">Screen resolution: if you need display resolution, which is not available from the menu, find the following lines<br>
+&lt;fullscreenWidth&gt; 1024 &lt;/fullscreenWidth&gt;<br>
+&lt;fullscreenHeight&gt; 768 &lt;/fullscreenHeight&gt;<br>
+and change the corresponding values.</div></div>
+You can't edit this, it will changes to old values if you launch the client (i tried)
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_20573', { domLikeStripId: 'like_post_20573', app: 'forums', type: 'pid', typeid: '20573' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.20573-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_20573' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(20573);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_20573') )
+        {
+            $('multiq_20573').show();
+        }
+        if( $('toggle_post_20573') )
+        {
+            $('toggle_post_20573').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[20573] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:20990-->
+
+<div class='post_block__colored post_block hentry clear clearfix ' id='post_id_20990'>		<a id='entry20990'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">gizaman
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__20990#entry20990' rel='bookmark' title='Game settings in preferences.xmlLink to post #12'>
+					
+					#12
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-10T15:50:31+00:00">Jul 10 2010 - 16:50</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>First lieutenant</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000008562" hovercard-id="gizaman" href="http://forum.worldoftanks.com/index.php?/user/gizaman-1000008562/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/profile/default_large.png' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">0</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">845</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>07-08-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->the problem with far_plane , and the developers know this. Is that if you turn graphics down, your far_plane value goes down.<br><br>
+What does that mean?<br><br>
+That means you cant see as far out as you should. Tanks will not appear even when they are in your view range.<br><br>
+It is okay to lower graphics but to cripple yourself that is not good. Players do not know this but the developers should fix this soon.
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_20990', { domLikeStripId: 'like_post_20990', app: 'forums', type: 'pid', typeid: '20990' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_20990' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(20990);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_20990') )
+        {
+            $('multiq_20990').show();
+        }
+        if( $('toggle_post_20990') )
+        {
+            $('toggle_post_20990').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[20990] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:21161-->
+
+<div class=' post_block hentry clear clearfix ' id='post_id_21161'>		<a id='entry21161'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">merig00
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__21161#entry21161' rel='bookmark' title='Game settings in preferences.xmlLink to post #13'>
+					
+					#13
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-10T18:39:16+00:00">Jul 10 2010 - 19:39</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Major</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000007290" hovercard-id="merig00" href="http://forum.worldoftanks.com/index.php?/user/merig00-1000007290/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">416</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">2,976</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000001031/' title='TB-H' rel='home' target='_blank'>[TB-H]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000001031' title='TB-H' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_031/1000001031/emblem_24x24.png" alt="TB-H"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>06-14-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->
+<p class="citation"><a class="snapback bbc_url" href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=20573"><img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_images/wg/snapback.png" alt="View Post"></a>Armitxes, on Jul 10 2010 - 08:29, said:</p>
+<div class="blockquote"><div class="quote">
+You can't edit this, it will changes to old values if you launch the client (i tried)<br>
+</div></div>
+Hmm worked in the same game version but russian beta. Weird. I'll have to see for myself.<br><br><p class="citation"><a class="snapback bbc_url" href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=20990"><img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_images/wg/snapback.png" alt="View Post"></a>gizaman, on Jul 10 2010 - 16:50, said:</p>
+<div class="blockquote"><div class="quote">
+the problem with far_plane , and the developers know this. Is that if you turn graphics down, your far_plane value goes down.<br><br>
+What does that mean?<br><br>
+That means you cant see as far out as you should. Tanks will not appear even when they are in your view range.<br><br>
+It is okay to lower graphics but to cripple yourself that is not good. Players do not know this but the developers should fix this soon.<br>
+</div></div>
+That's why I made a note to keep it on the highest level.
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_21161', { domLikeStripId: 'like_post_21161', app: 'forums', type: 'pid', typeid: '21161' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.21161-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_21161' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(21161);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_21161') )
+        {
+            $('multiq_21161').show();
+        }
+        if( $('toggle_post_21161') )
+        {
+            $('toggle_post_21161').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[21161] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:21542-->
+
+<div class='post_block__colored post_block hentry clear clearfix ' id='post_id_21542'>		<a id='entry21542'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">FnMag
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__21542#entry21542' rel='bookmark' title='Game settings in preferences.xmlLink to post #14'>
+					
+					#14
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-11T00:06:09+00:00">Jul 11 2010 - 01:06</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Corporal</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000005262" hovercard-id="FnMag" href="http://forum.worldoftanks.com/index.php?/user/fnmag-1000005262/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//profile/photo-6818.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">3599</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">15</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>07-06-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->
+<p class="citation"><a class="snapback bbc_url" href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=18059"><img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_images/wg/snapback.png" alt="View Post"></a>Karakanov, on Jul 08 2010 - 19:49, said:</p>
+<div class="blockquote"><div class="quote">
+what about window's vista?! there's no preferences.xml anywhere to be found on my computer?! my game won't even run because of some directx problem, the thing won't install on my computer, and it says something about:<br>
+This is what it said in my DXError.log wheni tried running the DirectX thingy tht came with the installer:<br>
+--------------------<br>
+[07/08/10 13:07:48] module: dxupdate(Jun 2 2010), file: dxupdate.cpp, line: 1269, function: CabCallback<br><br>
+Failed API: DeleteFile()<br>
+Error: (5) - Access is denied.<br><br><br><br>
+Unable to delete C:\Users\Username\AppData\Local\Temp\DX63A4.tmp\d3dx9_24.dll.<br><br>
+--------------------<br>
+[07/08/10 13:07:48] module: dxupdate(Jun 2 2010), file: dxupdate.cpp, line: 5725, function: DirectXUpdateInstallPlugIn<br><br>
+Failed API: SetupIterateCabinet()<br>
+Error: (1224) - The requested operation cannot be performed on a file with a user-mapped section open.<br><br><br><br>
+Unable to iterate through C:\Users\Username\AppData\Local\Temp\is-JJHVJ.tmp\redist\DIRECT~1\Feb2005_d3dx9_24_x64.cab. The file may be damaged.<br><br>
+--------------------<br>
+[07/08/10 13:07:48] module: dsetup32(Jun 2 2010), file: dxupdate.cpp, line: 280, function: CSetup::InstallPlugIn<br><br>
+DirectXUpdateInstallPlugIn() failed.<br><br>
+--------------------<br>
+[07/08/10 13:07:48] module: dsetup32(Jun 2 2010), file: setup.cpp, line: 1723, function: CSetup::SetupForDirectX<br><br>
+InstallPlugIn() failed. <br><br>
+What the heck is going on here?!<br>
+</div></div>
+<br><br>
+To find these folders in VISTA, go --&gt; C:\Games\World_of_Tanks_closed_Beta\res
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_21542', { domLikeStripId: 'like_post_21542', app: 'forums', type: 'pid', typeid: '21542' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.21542-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_21542' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(21542);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_21542') )
+        {
+            $('multiq_21542').show();
+        }
+        if( $('toggle_post_21542') )
+        {
+            $('toggle_post_21542').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[21542] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:21808-->
+
+<div class=' post_block hentry clear clearfix ' id='post_id_21808'>		<a id='entry21808'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">merig00
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__21808#entry21808' rel='bookmark' title='Game settings in preferences.xmlLink to post #15'>
+					
+					#15
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-11T06:32:00+00:00">Jul 11 2010 - 07:32</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Major</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000007290" hovercard-id="merig00" href="http://forum.worldoftanks.com/index.php?/user/merig00-1000007290/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">416</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">2,976</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000001031/' title='TB-H' rel='home' target='_blank'>[TB-H]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000001031' title='TB-H' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_031/1000001031/emblem_24x24.png" alt="TB-H"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>06-14-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->
+<p class="citation"><a class="snapback bbc_url" href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=21752"><img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_images/wg/snapback.png" alt="View Post"></a>Schizophrenic, on Jul 11 2010 - 06:26, said:</p>
+<div class="blockquote"><div class="quote">
+Couldn't you just put the settings on low, and then go in preferences.xml and change far_plane to 0?<br>
+Also, the resolution setting worked for me on my 1920x1080 monitor.<br>
+</div></div>
+That's what I did. It all works for me.
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_21808', { domLikeStripId: 'like_post_21808', app: 'forums', type: 'pid', typeid: '21808' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.21808-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_21808' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(21808);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_21808') )
+        {
+            $('multiq_21808').show();
+        }
+        if( $('toggle_post_21808') )
+        {
+            $('toggle_post_21808').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[21808] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:25944-->
+
+<div class='post_block__colored post_block hentry clear clearfix ' id='post_id_25944'>		<a id='entry25944'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">merig00
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__25944#entry25944' rel='bookmark' title='Game settings in preferences.xmlLink to post #16'>
+					
+					#16
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-13T23:59:53+00:00">Jul 14 2010 - 00:59</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Major</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000007290" hovercard-id="merig00" href="http://forum.worldoftanks.com/index.php?/user/merig00-1000007290/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">416</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">2,976</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000001031/' title='TB-H' rel='home' target='_blank'>[TB-H]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000001031' title='TB-H' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_031/1000001031/emblem_24x24.png" alt="TB-H"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>06-14-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->
+<p class="citation"><a class="snapback bbc_url" href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=25920"><img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_images/wg/snapback.png" alt="View Post"></a>wololo, on Jul 14 2010 - 00:32, said:</p>
+<div class="blockquote"><div class="quote">
+That folder isn't even available for me, and I'm running on XP.<br>
+</div></div>
+probably invisible. chance your windows folder settings.
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_25944', { domLikeStripId: 'like_post_25944', app: 'forums', type: 'pid', typeid: '25944' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.25944-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_25944' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(25944);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_25944') )
+        {
+            $('multiq_25944').show();
+        }
+        if( $('toggle_post_25944') )
+        {
+            $('toggle_post_25944').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[25944] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:26050-->
+
+<div class=' post_block hentry clear clearfix ' id='post_id_26050'>		<a id='entry26050'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">merig00
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__26050#entry26050' rel='bookmark' title='Game settings in preferences.xmlLink to post #17'>
+					
+					#17
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-14T01:55:28+00:00">Jul 14 2010 - 02:55</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Major</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000007290" hovercard-id="merig00" href="http://forum.worldoftanks.com/index.php?/user/merig00-1000007290/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/wot/us//av-1207.jpg?_r=0' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Special Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">416</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">2,976</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		<li class="desc lighter">
+				<span>
+				    
+	                            <a href='http://na.wargaming.net/clans/wot/1000001031/' title='TB-H' rel='home' target='_blank'>[TB-H]</a>
+							
+                                <a href='http://na.wargaming.net/clans/wot/1000001031' title='TB-H' rel='home' target='_blank'><img src="http://na.wargaming.net/clans/media/clans/emblems/cl_031/1000001031/emblem_24x24.png" alt="TB-H"/></a>
+                            
+				</span>
+			</li>
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>06-14-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->
+<p class="citation"><a class="snapback bbc_url" href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=findpost&amp;pid=26032"><img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_images/wg/snapback.png" alt="View Post"></a>FRIENDLYUNIT, on Jul 14 2010 - 02:34, said:</p>
+<div class="blockquote"><div class="quote">
+Hmmm. I'm running win7 64bit and am unable to find a preferences.xml file at all. Also, any .xml file I open with notepad has weird characters in it so I'm reluctant to edit...<br><br>
+I just want to invert my mouse <img src="http://cdn-frm-us.wargaming.net/wot/us/4.1/style_emoticons/wot/sad.gif" class="bbc_emoticon" alt=":("><br>
+</div></div>
+That's weird... hmm I know on XP that folder is invisible... what about Win7? Can you get at least to the Windows 7: C:\Users\*UserName* (by default it's admin)\AppData\Roaming\ folder?
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_26050', { domLikeStripId: 'like_post_26050', app: 'forums', type: 'pid', typeid: '26050' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.26050-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_26050' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(26050);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_26050') )
+        {
+            $('multiq_26050').show();
+        }
+        if( $('toggle_post_26050') )
+        {
+            $('toggle_post_26050').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[26050] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:29980-->
+
+<div class='post_block__colored post_block hentry clear clearfix ' id='post_id_29980'>		<a id='entry29980'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">norbi19888
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__29980#entry29980' rel='bookmark' title='Game settings in preferences.xmlLink to post #18'>
+					
+					#18
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-16T17:45:50+00:00">Jul 16 2010 - 18:45</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Private</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000017695" hovercard-id="norbi19888" href="http://forum.worldoftanks.com/index.php?/user/norbi19888-1000017695/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/profile/default_large.png' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">0</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">9</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>07-13-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->HI all,<br><br>
+MRT_DEPTH causing weird glitch in tank glowing, what I meant - our tank is always glowing on white, sometimes enemy or our tank got weird glowing stripes that runs through.<br><br>
+I got HD 5770.
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_29980', { domLikeStripId: 'like_post_29980', app: 'forums', type: 'pid', typeid: '29980' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_29980' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(29980);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_29980') )
+        {
+            $('multiq_29980').show();
+        }
+        if( $('toggle_post_29980') )
+        {
+            $('toggle_post_29980').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[29980] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:30535-->
+
+<div class=' post_block hentry clear clearfix ' id='post_id_30535'>		<a id='entry30535'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">Evesix
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__30535#entry30535' rel='bookmark' title='Game settings in preferences.xmlLink to post #19'>
+					
+					#19
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-17T05:10:52+00:00">Jul 17 2010 - 06:10</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Corporal</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000027048" hovercard-id="Evesix" href="http://forum.worldoftanks.com/index.php?/user/evesix-1000027048/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/profile/default_large.png' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">1611</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">14</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>07-13-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->Whenever i open the xml file with notepad or wordpad it opens up with alot of wierd characters, so im not sure what im doing. Any way to fix this/change it?
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_30535', { domLikeStripId: 'like_post_30535', app: 'forums', type: 'pid', typeid: '30535' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_30535' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(30535);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_30535') )
+        {
+            $('multiq_30535').show();
+        }
+        if( $('toggle_post_30535') )
+        {
+            $('toggle_post_30535').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[30535] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+
+				<!--post:30946-->
+
+<div class='post_block__colored post_block hentry clear clearfix ' id='post_id_30946'>		<a id='entry30946'></a>
+		
+	
+		
+		<div itemscope itemtype="http://schema.org/UserComments" class='post_wrap' >
+				<h3 class='row2'>
+                    <span itemprop="creator name" class="author vcard b-author b-author">WMD
+                        <span class='b-author_shadow'></span>
+                    </span>
+                
+				
+				<span class='post_id right ipsType_small desc blend_links'>
+					
+						<a itemprop="replyToUrl" href='http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__pid__30946#entry30946' rel='bookmark' title='Game settings in preferences.xmlLink to post #20'>
+					
+					#20
+					</a>
+				</span>
+				
+				<span class='posted_info b-posted_info desc lighter ipsType_small'>
+					Posted <abbr class="published" itemprop="commentTime" title="2010-07-17T14:07:06+00:00">Jul 17 2010 - 15:07</abbr>
+				</span>
+			</h3>
+			<div class='author_info'>
+				<div class='user_details'>
+	<ul class='basic_info'>
+		
+			<p class='desc member_title'>Staff sergeant</p>
+		
+        <li class='avatar clearfix'>
+				<a hovercard-ref="member" hovercard-spaid="1000002940" hovercard-id="wmd" href="http://forum.worldoftanks.com/index.php?/user/wmd-1000002940/" title="View Profile" class="ipsUserPhotoLink _hovertrigger url fn name left ">
+				<div class='b-avatar_wrap'>
+				
+				
+					<img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/profile/default_large.png' class='ipsUserPhoto ipsUserPhoto_large' />
+				
+				</div>
+				</a>
+					                    
+                    			</li>
+		<li class='group_title'>
+			Beta Testers
+		</li>
+		
+        <li class='battles_count margin-top'>
+                
+                    <span class="row_data">12561</span>
+                
+                <span class="row_title">battles</span>
+            </li>
+		
+		<li class='post_count desc lighter margin-bottom'>
+					<span class="row_data">286</span>
+			<span class="row_title"><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/message_img.png' /></span>
+				</li>
+		
+		
+				
+			<li class="desc lighter">
+				<span class="row_title">Member since:</span><br />
+				<span>02-18-2010</span>			</li>
+		
+			</ul>
+	<!--
+		<ul class='custom_fields'>
+			
+                             
+				
+					
+				
+                             
+			
+
+                             
+			
+		</ul>
+	-->
+	
+</div>
+			</div>
+			<div class='post_body'>
+				
+				<div itemprop="commentText" class='post entry-content '>
+					<!--cached-Sun, 20 Jan 2019 06:21:22 +0000-->Any commands to increase ping ? such as latency settings ?
+					
+					<br />
+					
+				</div>
+				
+				
+                    
+<script type='text/javascript'>
+	ipb.global.registerReputation( 'rep_post_30946', { domLikeStripId: 'like_post_30946', app: 'forums', type: 'pid', typeid: '30946' }, parseInt('0') );
+</script>
+                    
+                    
+								
+				
+					<!--signature.hidden.30946-->
+				
+			
+				
+			</div>
+			    <ul id='postControlsNormal_30946' class='post_controls clear clearfix'>
+					<li class='top hide'><a href='#ipboard_body' class='top' title='Back to top'>Back to top</a></li>
+					
+					
+					
+					
+                    
+					
+					
+				</ul>
+		</div>
+	</div>
+		
+		
+		<hr />
+		
+		
+<script type="text/javascript">
+    var pid = parseInt(30946);
+    if ( pid > ipb.topic.topPid ){
+        ipb.topic.topPid = pid;
+    }
+    
+    // Show multiquote for JS browsers
+    document.observe("dom:loaded", function() {
+        if ( $('multiq_30946') )
+        {
+            $('multiq_30946').show();
+        }
+        if( $('toggle_post_30946') )
+        {
+            $('toggle_post_30946').show();
+        }
+    });
+        // Add perm data
+        ipb.topic.deletePerms[30946] = { 'canDelete' : 0, 'canSoftDelete' : 0 };
+    
+</script>			
+		</div>
+	</div>
+
+<hr />
+<div class='topic_controls clear ipsPad_top_bottom_half'>
+	
+		<div class='left'><div class='pagination clearfix left '>
+	    <ul class='ipsList_inline left pages'>
+	    <li class='pagejump clickable pj0830540001'>
+                <a href='#'>Page 1 of 9 <!--<img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/dropdown.png' alt='+' />--></a>
+                <script type='text/javascript'>
+                    ipb.global.registerPageJump( '0830540001', { url: "http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/", stKey: 'st', perPage: 20, totalPages: 9, anchor: '#topmost'  } );
+                </script>
+            </li>
+        </ul>
+		<ul class='ipsList_inline back left'>
+			
+			
+		</ul>
+		<ul class='ipsList_inline left pages'>
+			
+				
+					
+						<li class='page active'>1</li>
+					
+				
+
+					
+						<li class='page'><a href="http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__st__20#topmost" title="2">2</a></li>
+					
+				
+
+					
+						<li class='page'><a href="http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__st__40#topmost" title="3">3</a></li>
+					
+				
+			
+		</ul>
+		<ul class='ipsList_inline forward left'>
+			
+				<li class='next'><a href="http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__st__20#topmost" title="Next page" rel='next'>Next</a></li>
+			
+			
+				<li class='last'><a href="http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/page__st__160#topmost" title="Go to last page" rel='last'>&raquo;</a></li>
+			
+    	</ul>
+	</div></div>
+	
+	<div class='ipsPad_top_slimmer right'>
+		
+		<a href='http://forum.worldoftanks.com/index.php?/forum/36-game-guides-and-tutorials/' class="ipsType_small desc">Back to Game Guides and Tutorials</a>
+		
+	</div>	
+</div>
+<script type="text/javascript">
+	document.observe("dom:loaded", function() {
+		$$('div.attach_wrap').each(function (el) {
+			$(el).select('a').each(function(a) {
+				var href = a.href;
+				if($(el.parentNode).select('a[href="' + href + '"]').length - $(el).select('a[href="' + href + '"]').length > 0) {
+					if(a.parentNode && a.parentNode.parentNode) {
+						a.parentNode.parentNode.removeChild(a.parentNode);
+					}
+				}
+			});
+		});
+			
+		$$('div.attach_wrap').each(function (el) {
+			if(!$(el).select('li').length) {
+				el.parentNode.removeChild(el);
+			}
+		});
+	});
+</script>
+
+<!-- Close topic -->
+</div>
+<!-- BOTTOM BUTTONS -->
+
+	<br />
+	<div class='clear clearfix left'>
+		
+
+	<ul class='topic_share left shareButtons ipsList_inline'>
+	
+		
+	
+
+		
+	
+
+		
+	
+
+		<li><a href="http://forum.worldoftanks.com/index.php?sharelink=twitter;aHR0cDovL2ZvcnVtLndvcmxkb2Z0YW5rcy5jb20vaW5kZXgucGhwPy90b3BpYy84MjMtZ2FtZS1zZXR0aW5ncy1pbi1wcmVmZXJlbmNlc3htbC8,;R2FtZSBzZXR0aW5ncyBpbiBwcmVmZXJlbmNlcy54bWw," rel="nofollow" target="_blank" title="Share this link via Twitter" class='_slink' id='slink_twitter'><img src="http://cdn-frm-us.wargaming.net/4.5/style_extra/sharelinks/twitter.png" /></a></li>
+	
+
+		
+				<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+	
+		
+	
+</script>
+<li><div class='googlePlusOne'><g:plusone count="false" size="small"></g:plusone></div></li>
+			
+	
+
+		
+	
+
+		<li><a href="http://forum.worldoftanks.com/index.php?sharelink=digg;aHR0cDovL2ZvcnVtLndvcmxkb2Z0YW5rcy5jb20vaW5kZXgucGhwPy90b3BpYy84MjMtZ2FtZS1zZXR0aW5ncy1pbi1wcmVmZXJlbmNlc3htbC8,;R2FtZSBzZXR0aW5ncyBpbiBwcmVmZXJlbmNlcy54bWw," rel="nofollow" target="_blank" title="Share this link via Digg" class='_slink' id='slink_digg'><img src="http://cdn-frm-us.wargaming.net/4.5/style_extra/sharelinks/digg.png" /></a></li>
+	
+
+		<li><a href="http://forum.worldoftanks.com/index.php?sharelink=delicious;aHR0cDovL2ZvcnVtLndvcmxkb2Z0YW5rcy5jb20vaW5kZXgucGhwPy90b3BpYy84MjMtZ2FtZS1zZXR0aW5ncy1pbi1wcmVmZXJlbmNlc3htbC8,;R2FtZSBzZXR0aW5ncyBpbiBwcmVmZXJlbmNlcy54bWw," rel="nofollow" target="_blank" title="Share this link via Del.icio.us" class='_slink' id='slink_delicious'><img src="http://cdn-frm-us.wargaming.net/4.5/style_extra/sharelinks/delicious.png" /></a></li>
+	
+
+		<li><a href="http://forum.worldoftanks.com/index.php?sharelink=reddit;aHR0cDovL2ZvcnVtLndvcmxkb2Z0YW5rcy5jb20vaW5kZXgucGhwPy90b3BpYy84MjMtZ2FtZS1zZXR0aW5ncy1pbi1wcmVmZXJlbmNlc3htbC8,;R2FtZSBzZXR0aW5ncyBpbiBwcmVmZXJlbmNlcy54bWw," rel="nofollow" target="_blank" title="Share this link via Reddit" class='_slink' id='slink_reddit'><img src="http://cdn-frm-us.wargaming.net/4.5/style_extra/sharelinks/reddit.png" /></a></li>
+	
+
+		
+	
+
+		
+				<li class='fbLike'><div class="fb-like" data-href="http://forum.worldoftanks.com%2Findex.php%3F%2Ftopic%2F823-game-settings-in-preferencesxml%2F" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-action="like"></div><div id="fb-root"></div></li>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+			
+	
+	</ul>
+	<script type="text/javascript">
+		ipb.sharelinks.url   = "http://forum.worldoftanks.com/index.php?/topic/823-game-settings-in-preferencesxml/";
+		ipb.sharelinks.title = "Game settings in preferences.xml";
+		ipb.sharelinks.bname = "World of Tanks official forum";
+	</script>
+
+	</div>
+	<br />
+
+<!-- SAME TAGGED -->
+
+<!-- ACTIVE USERS -->
+<div id='topic_stats' class='statistics clear clearfix'>
+		<div id='topic_active_users' class='active_users'>
+			<h4 class='statistics_head'>1 user(s) are reading this topic</h4>
+            
+                <p class='statistics_brief desc'>0 members, 1 guests, 0 anonymous users</p>
+            
+			
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="http://cdn-frm-us.wargaming.net/4.5/js/3rd_party/prettify/prettify.js"></script>
+	<script type='text/javascript' src='http://cdn-frm-us.wargaming.net/4.5/js/3rd_party/prettify/lang-sql.js'></script>
+	<!-- By default we load generic code, php, css, sql and xml/html; load others here if desired -->
+	<script type="text/javascript">
+	//<![CDATA[
+		Event.observe( window, 'load', function(e){ prettyPrint() });
+	//]]>
+	</script>
+<div id='multiQuoteInsert' style='display: none;' class='ipsFloatingAction'>
+	<span class='ipsButton no_width' id='mqbutton'>Reply to quoted posts</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#' id='multiQuoteClear' class='ipsType_smaller desc' title='Clear the posts you have selected with MultiQuote'>Clear</a> &nbsp;&nbsp;&nbsp;
+</div>
+<form id="modform" method="post" action="http://forum.worldoftanks.com/index.php?">
+	<input type="hidden" name="app" value="forums" />
+	<input type="hidden" name="module" value="moderate" />
+	<input type="hidden" name="section" value="moderate" />
+	<input type="hidden" name="do" value="postchoice" />
+	<input type="hidden" name="f" value="36" />
+	<input type="hidden" name="t" value="823" />
+	<input type="hidden" name="auth_key" value="880ea6a14ea49e853634fbdc5015a024" />
+	<input type="hidden" name="st" value="" />
+	<input type="hidden" value="" name="selectedpidsJS" id='selectedpidsJS' />
+	<input type="hidden" name="tact" id="tact" value="" />
+</form>
+				
+				<ol class='breadcrumb bottom ipsList_inline left clearfix clear'>
+											<li><a href='http://forum.worldoftanks.com/'>World of Tanks official forum</a></li>
+							
+						
+							<li><span class='nav_sep'>&rarr;</span> <a href='http://forum.worldoftanks.com/index.php?/forum/151-game-discussion/' title='Return to Game Discussion'>Game Discussion</a></li>
+							
+						
+
+							<li><span class='nav_sep'>&rarr;</span> <a href='http://forum.worldoftanks.com/index.php?/forum/35-general-discussion/' title='Return to General Discussion'>General Discussion</a></li>
+							
+						
+
+							<li><span class='nav_sep'>&rarr;</span> <a href='http://forum.worldoftanks.com/index.php?/forum/36-game-guides-and-tutorials/' title='Return to Game Guides and Tutorials'>Game Guides and Tutorials</a></li>
+							
+						
+
+					
+				</ol>
+			</div>
+			<!-- ::: WOTFRM-2934 ::: -->
+			<!--
+			
+			-->
+			<!-- ::: FOOTER (Change skin, language, mark as read, etc) ::: -->
+			<div id='footer_utilities' class='main_width clearfix clear'>
+				<a class='mg-top' rel="nofollow" href='#topmost' id='backtotop' title='Go to top'><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/top.png' alt='' /></a>
+				<ul class='ipsList_inline left mg-top'>
+					<li>
+						<img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/feed.png' alt='RSS Feed' id='rss_feed' class='clickable' />
+					</li>
+					
+                                                            <li>
+                                    <a href='http://forum.worldoftanks.com/index.php?showtopic=823&amp;k=880ea6a14ea49e853634fbdc5015a024&amp;settingNewSkin=2'>Mobile Version</a>
+                                </li>
+                            
+					
+					<li>
+						<a rel="nofollow" id='mark_all_read' href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=all&amp;k=880ea6a14ea49e853634fbdc5015a024" title='Mark all as read'>Mark Community Read</a>
+						<ul id='mark_all_read_menucontent' class='ipbmenu_content' style='display: none'>
+							
+								<li>
+									
+								</li>
+							
+
+								<li>
+									<a href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=app&amp;markApp=forums&amp;k=880ea6a14ea49e853634fbdc5015a024">Forums</a>
+								</li>
+							
+
+								<li>
+									<a href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=app&amp;markApp=members&amp;k=880ea6a14ea49e853634fbdc5015a024">Members</a>
+								</li>
+							
+							<li>
+								<a href="http://forum.worldoftanks.com/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=all&amp;k=880ea6a14ea49e853634fbdc5015a024"><strong>Mark all as read</strong></a>
+							</li>
+						</ul>
+					</li>
+                    
+				</ul>
+                <div class='b-footer-copyr'>
+                    <div class='b-footer-copyr_wg'>
+                        <a href='http://wargaming.net/' target='_blank'> </a>
+                    </div>
+                    <!-- Copyright Information -->
+        				  <p id='copyright'>
+        				  	<a href='http://www.invisionpower.com/products/board/' title='Community Forum Software by Invision Power Services'>Community Forum Software by IP.Board</a></p>
+		<!-- / Copyright -->
+                                        
+                        <p class='copyright'>© 2010 - 2019. Wargaming.net</p>
+                    
+                    <p class='copyright'>All rights reserved</p>
+                </div>
+                <div class='clearfix'></div>
+                
+			</div>
+			
+			
+			
+				<script type='text/javascript' src='http://cdn-frm-us.wargaming.net/4.5/js/3rd_party/lightbox.js'></script>
+<script type='text/javascript'>
+//<![CDATA[
+	// Lightbox Configuration
+	LightboxOptions = Object.extend({
+	    fileLoadingImage:        'http://cdn-frm-us.wargaming.net/4.5/style_images/wg/lightbox/loading.gif',
+	    fileBottomNavCloseImage: 'http://cdn-frm-us.wargaming.net/4.5/style_images/wg/lightbox/closelabel.gif',
+	    overlayOpacity: 0.8,   // controls transparency of shadow overlay
+	    animate: true,         // toggles resizing animations
+	    resizeSpeed: 7,        // controls the speed of the image resizing animations (1=slowest and 10=fastest)
+	    borderSize: 10,         //if you adjust the padding in the CSS, you will need to update this variable
+		// When grouping images this is used to write: Image # of #.
+		// Change it for non-english localization
+		labelImage: "Image",
+		labelOf: "of"
+	}, window.LightboxOptions || {});
+/* Watch for a lightbox image and set up our downloadbutton watcher */
+document.observe('click', (function(event){
+    var target = event.findElement('a[rel*="lightbox"]') || event.findElement('area[rel*="lightbox"]') || event.findElement('span[rel*="lightbox"]');
+    if (target) {
+        event.stop();
+        gbl_addDownloadButton();
+    }
+}).bind(this));
+var _to    = '';
+var _last  = '';
+function gbl_addDownloadButton()
+{
+	if ( typeof( ipsLightbox.lightboxImage ) != 'undefined' && ipsLightbox.lightboxImage.src )
+	{
+		if ( _last != ipsLightbox.lightboxImage.src )
+		{
+			if ( ! $('gbl_d') )
+			{
+				$('bottomNav').insert( { top: "<div id='gbl_d' style='text-align:right;padding-bottom:4px;'></div>" } );
+			}
+			$('gbl_d').update( "<a href='"+ ipsLightbox.lightboxImage.src + "' target='_blank'><img src='http://cdn-frm-us.wargaming.net/4.5/style_images/wg/lightbox/download-icon.png' /></a>" );
+			_last = ipsLightbox.lightboxImage.src;
+		}
+	}
+	/* Check for init and then keep checking for new image */
+	_to = setTimeout( "gbl_addDownloadButton()", 1000 );
+}
+//]]>
+</script>
+			
+			<div id='inline_login_form' style='display: none'>
+		<form action="https://forum.worldoftanks.com/index.php?app=core&amp;module=global&amp;section=login&amp;do=process" method="post" id='login'>
+			<input type='hidden' name='auth_key' value='880ea6a14ea49e853634fbdc5015a024' />
+			<input type="hidden" name="referer" value="http://forum.worldoftanks.com%2Findex.php%3F%2Ftopic%2F823-game-settings-in-preferencesxml%2F" />
+			<h3>Sign In</h3>
+			
+			<div class='ipsForm b-popup-wrap'>
+				<fieldset>
+					<ul>
+						<li class='ipsField ipsField_primary'>
+							<label for='ips_username' class='ipsField_title'>Email address:</label>
+							<div class='ipsField_content'>
+								<input id='ips_username' type='text' class='input_text' name='ips_username' size='30' tabindex='1' />
+							</div>
+						</li>
+						<li class='ipsField ipsField_primary'>
+							<label for='ips_password' class='ipsField_title'>Password</label>
+							<a class='right' href='https://forum.worldoftanks.com/index.php?app=core&amp;module=global&amp;section=lostpass' title='Retrieve password' target='_blank'>I've forgotten my password</a>
+							<div class='ipsField_content'>
+								<input id='ips_password' type='password' class='input_text' name='ips_password' size='30' tabindex='2' />
+							</div>
+						</li>
+						<li class='ipsField ipsField_checkbox ipsField_checkbox__m-t15'>
+							<input type='checkbox' id='inline_remember' checked='checked' name='rememberMe' value='1' class='input_check' tabindex='4' />
+							<div class='ipsField_content'>
+								<label for='inline_remember'>
+									<strong>Remember me</strong>								</label>
+							</div>
+						</li>
+						
+							<li class='ipsField ipsField_checkbox'>
+								<input type='checkbox' id='inline_invisible' name='anonymous' value='1' class='input_check' tabindex='5' />
+								<div class='ipsField_content'>
+									<label for='inline_invisible'>
+										Sign in anonymously									</label>
+								</div>
+							</li>
+						
+					</ul>
+				</fieldset>
+					<input type='submit' class='ipsButton' value='Sign In' tabindex='3' />
+					<span class=''>
+						Need an account? <a href="https://forum.worldoftanks.com/index.php?app=core&amp;module=global&amp;section=register" title='Register now!' target='_blank'>Register now!</a>
+					</span>
+			</div>
+		</form>
+	</div>
+		</div>
+		
+		
+		<!-- ::: USER DROP DOWN MENU ::: -->
+        <div id='user_link_menucontent' class='ipsHeaderMenu clearfix boxShadow' style='display: none'>
+				
+					<ul class="menucontent_links left">
+						<li>
+							<a href="http://worldoftanks.com/community/accounts/" title="Members">Members</a>
+						</li>
+					</ul>
+				
+			</div>
+		<div class="popup-dark-wrapper" id="popup_dark_wrapper" style="display:none;"></div>
+	</body>
+</html>

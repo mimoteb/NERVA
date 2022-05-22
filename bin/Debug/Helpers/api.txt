@@ -1,0 +1,1 @@
+https://api.worldoftanks.eu/wot/globalmap/eventaccountinfo/?application_id=0736c8bb8838d6b17b7e7f29b8a319ee&account_id=542250529&event_id=metal_wars&front_id=metal_wars_bg

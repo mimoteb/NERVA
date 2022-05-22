@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<!-- common menu script -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+<script data-user_id="542250529" data-user_name="Mimoteb" data-token_url="//wiki.wargaming.net/menu_token" data-login_url="http://wiki.wargaming.net/en/index.php?title=Special:OpenIDLogin&amp;returnto=Servers" data-logout_url="http://wiki.wargaming.net/en/index.php?title=Special:UserLogout&amp;returnto=Servers" data-service="wiki" data-project="all" data-realm="eu" data-backend_url="//cm-eu.wargaming.net" data-language="en" data-content_layout_max_width="1335" data-registration_url="//cpm.wargaming.net/5ufpwvc1/?pub_id=wiki.wgnet._en_cmenu_" id="common_menu_loader" type="text/javascript" charset="utf-8" src="http://cdn-cm.gcdn.co/loader.min.js"></script>
+<!--./common menu script --><meta name="apple-itunes-app" content="app-id=859204347"/><head>
+<meta charset="UTF-8" />
+<title>Servers - Global wiki. Wargaming.net</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="generator" content="MediaWiki 1.23.14" />
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/en/index.php?title=Servers&amp;action=edit" />
+<link rel="edit" title="Edit" href="/en/index.php?title=Servers&amp;action=edit" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Global wiki. Wargaming.net (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://wiki.wargaming.net/api.php?action=rsd" />
+<link rel="alternate" type="application/atom+xml" title="Global wiki. Wargaming.net Atom feed" href="/en/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.planeChars.css%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.ui.button%7Cskins.globalwiki&amp;only=styles&amp;skin=globalwiki&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=globalwiki&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: global_wiki_:resourceloader:filter:minify-css:7:455537accb5846ba9009f8e10249d2bf */</style>
+<script>if(window.mw){
+mw.loader.state({"skins.globalwiki":"loading"});
+}</script>
+<script src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=globalwiki&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Servers","wgTitle":"Servers","wgCurRevisionId":279778,"wgRevisionId":279778,"wgArticleId":1252,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":"Mimoteb:eu","wgUserGroups":["*","user","autoconfirmed"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Servers","wgLanguageCode":"en","wgUserId":3475429,"wgUserEditCount":0,"wgUserRegistration":1480030548000,"wgUserNewMsgRevisionId":null,"wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":false,"previewDialog":false,"publish":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","hideloginsplash":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"globalwiki","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0
+,"wllimit":250,"useeditwarning":1,"prefershttps":1,"showjumplinks":false,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs10000":true,"searchNs10001":false,"searchNs10002":true,"searchNs10003":false,"searchNs10004":true,"searchNs10005":false,"searchNs10006":true,"searchNs10007":false,"searchNs10008":true,"searchNs10009":false,"searchNs10010":true,"searchNs10011":false,"searchNs10012":true,"searchNs10013":false,"searchNs10014":true,"searchNs10015":false,"searchNs10016":true,"searchNs10017":false,"searchNs10018":true,"searchNs10019":false,"searchNs10020":true,
+"searchNs10021":false});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"9e99f3d4d03edbf0bdf0180347b96168+\\","patrolToken":false,"watchToken":"6337e60d2a35ea26ef00ae2972627e9f+\\"});},{},{});
+/* cache key: global_wiki_:resourceloader:filter:minify-js:7:8b754e74fccff9b5d607c7104aca004b */
+}</script>
+<script src="/load.php?debug=false&amp;lang=en&amp;modules=skins.globalwiki&amp;only=scripts&amp;skin=globalwiki&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://wiki.wargaming.net/en/Servers" />
+<script src="//cds.wargaming.net/static/client/js/wgcds.js"></script><!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/globalwiki/csshover.min.htc")}</style><![endif]--><style type='text/css'>
+			@font-face {
+                font-family: 'WarHeliosCondC';
+                src: url('http://wiki.gcdn.co/fonts/warhelioscondc/warhelioscondc-webfont.eot');
+                src: url('http://wiki.gcdn.co/fonts/warhelioscondc/warhelioscondc-webfont.eot?#iefix') format('embedded-opentype'),
+                     url('http://wiki.gcdn.co/fonts/warhelioscondc/warhelioscondc-webfont.woff') format('woff'),
+                     url('http://wiki.gcdn.co/fonts/warhelioscondc/warhelioscondc-webfont.ttf') format('truetype'),
+                     url('http://wiki.gcdn.co/fonts/warhelioscondc/warhelioscondc-webfont.svg') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'WarHeliosCondCBold';
+                src: url('http://wiki.gcdn.co/fonts/warhelioscondcbold/warhelioscondcbold-webfont.eot');
+                src: url('http://wiki.gcdn.co/fonts/warhelioscondcbold/warhelioscondcbold-webfont.eot?#iefix') format('embedded-opentype'),
+                    url('http://wiki.gcdn.co/fonts/warhelioscondcbold/warhelioscondcbold-webfont.woff') format('woff'),
+                    url('http://wiki.gcdn.co/fonts/warhelioscondcbold/warhelioscondcbold-webfont.ttf') format('truetype'),
+                    url('http://wiki.gcdn.co/fonts/warhelioscondcbold/warhelioscondcbold-webfont.svg') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            </style></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Servers skin-globalwiki action-view vector-animateLayout" data-article="1252">
+<div class="b-main">
+    <!-- common menu holder -->
+<link rel="stylesheet" type="text/css" href="//cdn-cm.gcdn.co/holder.css"/>
+<div id="common_menu">
+    <noscript><div id="common_menu_frame_wrap"><iframe id="common_menu_frame" src="//cm-eu.wargaming.net/frame?user_id=542250529&user_name=Mimoteb&token_url=//wiki.wargaming.net/menu_token&login_url=http://wiki.wargaming.net/en/index.php?title=Special:OpenIDLogin&amp;returnto=Servers&logout_url=http://wiki.wargaming.net/en/index.php?title=Special:UserLogout&amp;returnto=Servers&service=wiki&project=all&realm=eu&backend_url=//cm-eu.wargaming.net&language=en&content_layout_max_width=1335&registration_url=//cpm.wargaming.net/5ufpwvc1/?pub_id=wiki.wgnet._en_cmenu_" ></iframe></div></noscript></div>
+<script type="text/javascript" charset="utf-8">
+    if (window.WG && WG.CommonMenu) {
+        WG.CommonMenu.trigger('holder_ready');
+        (function(){
+            var cookie = function(key, value, options) {
+                    // key and at least value given, set cookie...
+                    if (arguments.length > 1 && (!/Object/.test(Object.prototype.toString.call(value)) || value === null || value === undefined)) {
+                        options = $.extend({}, options);
+
+                        if (value === null || value === undefined) {
+                            options.expires = -1;
+                        }
+
+                        if (typeof options.expires === 'number') {
+                            var days = options.expires, t = options.expires = new Date();
+                            t.setDate(t.getDate() + days);
+                        }
+
+                        value = String(value);
+
+                        return (document.cookie = [
+                            encodeURIComponent(key), '=', options.raw ? value : encodeURIComponent(value),
+                            options.expires ? '; expires=' + options.expires.toUTCString() : '', // use expires attribute, max-age is not supported by IE
+                            options.path    ? '; path=' + options.path : '',
+                            options.domain  ? '; domain=' + options.domain : '',
+                            options.secure  ? '; secure' : ''
+                        ].join(''));
+                    }
+
+                    // key and possibly options given, get cookie...
+                    options = value || {};
+                    var decode = options.raw ? function(s) { return s; } : decodeURIComponent;
+
+                    var pairs = document.cookie.split('; ');
+                    for (var i = 0, pair; pair = pairs[i] && pairs[i].split('='); i++) {
+                        if (decode(pair[0]) === key) return decode(pair[1] || ''); // IE saves cookies with empty string as "c; ", e.g. without "=" as opposed to EOMB, thus pair[1] may be undefined
+                    }
+                    return null;
+                },
+                user_realm_geoip_cookie = cookie('user_realm_geoip'),
+                expires = new Date();
+
+            if (user_realm_geoip_cookie !== null && user_realm_geoip_cookie !== "") {
+                expires.setYear(expires.getFullYear() + 1);
+                cookie('cm.options.realm', user_realm_geoip_cookie, {"path": '/', "expires": expires});
+                cookie('cm.options.backend_url', user_realm_geoip_cookie, {"path": '/', "expires": expires});
+                WG.CommonMenu.update({
+                    realm: user_realm_geoip_cookie
+                });
+            }
+        })();
+
+    } else {
+        document.getElementById('common_menu').innerHTML = '<noscript><div class="b-noscript"><div class="b-noscript-wrpr"><p class="b-noscript_content">Some website functions are unavailable because <strong>JavaScript is disabled in your browser</strong>. Please turn JavaScript on and refresh the page.</p></div></div></noscript><div id="p-personal" class="b-global"><div class="b-global-nav"><ul ><li id="pt-userpage" class="new"><a href="/en/User:Mimoteb:eu" title="Your user page [.]" accesskey=".">Your user page</a></li><li id="pt-logout"><a href="/en/index.php?title=Special:UserLogout&amp;returnto=Servers" title="Log out">Log out</a></li></ul></div><!--b-global-wrp--></div>';
+    }
+</script>
+<!--./common menu holder -->
+    <div class="b-main-wrp clearfix">
+
+            <!-- header -->
+            <div id="mw-head" class="b-header">
+
+               <span class="b-welcome">Welcome to Wargaming.net Wiki!</span>
+               <!-- logo -->
+                <div id="p-logo" class="b-logo"><a href="http://wiki.wargaming.net/en/Main_Page"  title="Visit the main page"></a></div>
+               <!-- /logo -->
+
+                <div id="left-navigation">
+                    
+<!-- 0 -->
+<div id="p-namespaces" class="b-tabs-wrp vectorTabs">
+	<ul class="b-tabs" >
+					<li  id="ca-nstab-main" class="selected"><span class="b-tabs-item_left"><a class="b-tabs-item_link" href="/en/Servers"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk"><span class="b-tabs-item_left"><a class="b-tabs-item_link" href="/en/Talk:Servers"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<div>
+		</div>
+	<div><span>Variants</span><a href="#"></a></div>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+                </div>
+
+                
+<!-- 0 -->
+                <div class="b-activity">
+
+                                                                <a onclick="return watchToggle('Servers', 'watch', true );" href="/en/index.php?title=Servers&action=watch&token=b91c93a843369358741424095c9b4c9e%2B%5C"  class="b-activity_addbookmark" title="Watch this page"></a>
+                        <span onclick="return watchToggle('Servers', 'unwatch', true );"  class="b-activity_bookmark " title="Stop watching"></span>
+                    
+                    <ul class="b-options">
+
+                                                    <li class="b-options_item">
+                                <a href="/en/User:Mimoteb:eu" class="b-options_link b-darklink" title="Your user page"><span class="new"></span>Your user page</a>
+                                                                    <!-- <span class="b-options_discussion">2</span> -->
+                                                            </li>
+                                                    <li class="b-options_item">
+                                <a href="/en/User_talk:Mimoteb:eu" class="b-options_link b-darklink" title="Talk"><span class="new b-options_icon b-options_icon__discussion"></span>Talk</a>
+                                                                    <!-- <span class="b-options_discussion">2</span> -->
+                                                            </li>
+                                                    <li class="b-options_item">
+                                <a href="/en/Special:Preferences" class="b-options_link b-darklink" title="Preferences"><span class=" b-options_icon "></span>Preferences</a>
+                                                                    <!-- <span class="b-options_discussion">2</span> -->
+                                                            </li>
+                                                    <li class="b-options_item">
+                                <a href="/en/Special:Contributions/Mimoteb:eu" class="b-options_link b-darklink" title="Contributions"><span class=" b-options_icon b-options_icon__edit"></span>Contributions</a>
+                                                                    <!-- <span class="b-options_discussion">2</span> -->
+                                                            </li>
+                                                    <li class="b-options_item">
+                                <a href="/en/Special:Watchlist" class="b-options_link b-darklink" title="Watchlist"><span class=""></span>Watchlist</a>
+                                                                    <!-- <span class="b-options_discussion">2</span> -->
+                                                            </li>
+                                            </ul>
+                </div><!--activity-->
+
+
+<!-- /0 -->
+
+                <div id="right-navigation">
+                    
+<!-- 0 -->
+<div id="p-views" class="b-view-mode vectorTabs">
+	<ul class="b-options" >
+		
+			<li  id="ca-view" class="selected"><a class="b-options_link b-darklink" href="/en/Servers" >View</a><span class="b-options_arr"></span>
+                            </li>
+		
+			<li  id="ca-edit"><a class="b-options_link b-darklink" href="/en/index.php?title=Servers&amp;action=edit"  title="You can edit this page. Please use the preview button before saving [e]" accesskey="e">Edit</a><span class="b-options_arr"></span>
+                                <span class="l-options-view">
+                    <span class="b-options_view js-visible"></span>
+                    <ul class="b-dropdown-menu b-dropdown-menu__admin js-dropdown-menu__admin">
+                                                    <li class="b-dropdown-menu_item"><a class="b-dropdown-menu_link b-dropdown-menu_link__dark" href="/en/index.php?title=Servers&amp;action=watch&amp;token=b91c93a843369358741424095c9b4c9e%2B%5C">Watch</a></li>
+                                            </ul>
+                </span>
+                            </li>
+		
+			<li  id="ca-history" class="collapsible"><a class="b-options_link b-darklink" href="/en/index.php?title=Servers&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a><span class="b-options_arr"></span>
+                            </li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" class="b-search">
+	<!--<h5><label for="searchInput">Search</label></h5>-->
+	<form action="/en/index.php" id="searchform">
+			<input name="search" placeholder="Search" title="Search Global wiki. Wargaming.net [f]" accesskey="f" id="searchInput" class="b-search-input js-search-input" />			<!--<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />-->
+            <div class="l-button">
+                <span class="b-button">
+                    <span class="b-button_right b-button_right__short">Search</span>
+                </span>
+			    <input type="submit" name="fulltext" value="" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />            </div>
+			<input type='hidden' name="title" value="Special:Search"/>
+
+            <p class="b-example">
+                <span class="b-example_txt">Example:</span>
+                <a class="b-fakelink js-search-link" href="#"></a>
+            </p>
+	</form>
+</div>
+
+<!-- /2 -->
+                </div>
+
+                <div class="l-separator l-separator__header">
+                    <div class="b-separator">
+                        <div class="b-separator-right"></div>
+                    </div>
+                </div><!--l-separator-->
+            </div>
+            <!-- /header -->
+
+            <!-- panel -->
+                <div id="mw-panel" class="noprint b-sidebar">
+                    
+<!-- sidebar_projects -->
+
+        <div class="b-sidebar_item" id='p-sidebar_projects'>
+            <h5 class="b-sidebar_title b-sidebar_title__opened">Games</h5>
+
+                            <ul class="b-left-menu b-left-menu__opened"  style="display: block;">
+
+                    
+                        
+                            <li id="n-World-of-Tanks" class="b-left-menu_item"><a href="/en/World_of_Tanks" class="b-left-menu_link b-darklink"><span class="b-left-menu_point b-left-menu_point__game" title="World of Tanks"><span class="b-left-menu_icon b-left-menu_icon__wot"></span>World of Tanks</span></a></li>
+                    
+                        
+                            <li id="n-World-of-Warplanes" class="b-left-menu_item"><a href="/en/World_of_Warplanes" class="b-left-menu_link b-darklink"><span class="b-left-menu_point b-left-menu_point__game" title="World of Warplanes"><span class="b-left-menu_icon b-left-menu_icon__wowp"></span>World of Warplanes</span></a></li>
+                    
+                        
+                            <li id="n-World-of-Warships" class="b-left-menu_item"><a href="/en/World_of_Warships" class="b-left-menu_link b-darklink"><span class="b-left-menu_point b-left-menu_point__game" title="World of Warships"><span class="b-left-menu_icon b-left-menu_icon__wows"></span>World of Warships</span></a></li>
+                    
+                        
+                            <li id="n-WoT-Blitz" class="b-left-menu_item"><a href="/en/WoT_Blitz" class="b-left-menu_link b-darklink"><span class="b-left-menu_point b-left-menu_point__game" title="WoT Blitz"><span class="b-left-menu_icon b-left-menu_icon__wotb"></span>WoT Blitz</span></a></li>
+                                                        </ul>
+                    </div>
+        
+<!-- /sidebar_projects -->
+<div class="b-cds-banner"><div class="js-wgcds-content-item-sidearticle_172x400" data-wgcds-place="SideArticle_172x400"></div><script type="text/javascript">
+        (function() {
+            var cds_config = {
+                parameters: {
+                    host: 'cds.wargaming.net',
+                    consumer: 'WOT_WIKI_ALL',
+                    locale: 'en',
+                    accountId: 542250529
+                }
+            };
+            window.wgcds = new WGCDS.Loader('.js-wgcds-content-item-sidearticle_172x400', cds_config);
+        })();
+    </script></div>
+<!-- navigation -->
+
+        <div class="b-sidebar_item" id='p-navigation'>
+            <h5 class="b-sidebar_title">Navigation</h5>
+
+                            <ul class="b-left-menu" >
+
+                    
+                        
+                            <li id="n-mainpage-description" class="b-left-menu_item"><a href="/en/Main_Page" title="Visit the main page [z]" accesskey="z" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="Main page">Main page</span></a></li>
+                    
+                        
+                            <li id="n-Wiki-discussion" class="b-left-menu_item"><a href="/en/Wiki_Discussion" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="Wiki discussion">Wiki discussion</span></a></li>
+                    
+                        
+                            <li id="n-randompage" class="b-left-menu_item"><a href="/en/Special:Random" title="Load a random page [x]" accesskey="x" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="Random page">Random page</span></a></li>
+                    
+                        
+                            <li id="n-recentchanges" class="b-left-menu_item"><a href="/en/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="Recent changes">Recent changes</span></a></li>
+                    
+                        
+                            <li id="n-Purge-page-cache" class="b-left-menu_item"><a href="http://wiki.wargaming.net/en/index.php?title=Servers&amp;action=purge&amp;forcerecursivelinkupdate" rel="nofollow" target="_blank" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="Purge page cache">Purge page cache</span></a></li>
+                    
+                        
+                            <li id="n-help" class="b-left-menu_item"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" target="_blank" title="The place to find out" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="Help">Help</span></a></li>
+                    
+                        
+                            <li id="n-World-of-Tanks-Portal" class="b-left-menu_item"><a href="http://worldoftanks.com/" rel="nofollow" target="_blank" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="World of Tanks Portal">World of Tanks Portal</span></a></li>
+                    
+                        
+                            <li id="n-World-of-Warplanes-Portal" class="b-left-menu_item"><a href="http://worldofwarplanes.com/" rel="nofollow" target="_blank" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="World of Warplanes Portal">World of Warplanes Portal</span></a></li>
+                    
+                        
+                            <li id="n-World-of-Warships-Portal" class="b-left-menu_item"><a href="http://worldofwarships.com/" rel="nofollow" target="_blank" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="World of Warships Portal">World of Warships Portal</span></a></li>
+                    
+                        
+                            <li id="n-World-of-Tanks-Blitz-Portal" class="b-left-menu_item"><a href="http://wotblitz.com/" rel="nofollow" target="_blank" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="World of Tanks Blitz Portal">World of Tanks Blitz Portal</span></a></li>
+                                                        </ul>
+                    </div>
+        
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+
+        <div class="b-sidebar_item" id='p-tb'>
+            <h5 class="b-sidebar_title">Tools</h5>
+
+                            <ul class="b-left-menu" >
+
+                    
+                        
+                            <li id="t-whatlinkshere" class="b-left-menu_item"><a href="/en/Special:WhatLinksHere/Servers" title="A list of all wiki pages that link here [j]" accesskey="j" class="b-left-menu_link b-darklink"><span class="b-left-menu_point">What links here</span></a></li>
+                    
+                        
+                            <li id="t-recentchangeslinked" class="b-left-menu_item"><a href="/en/Special:RecentChangesLinked/Servers" title="Recent changes in pages linked from this page [k]" accesskey="k" class="b-left-menu_link b-darklink"><span class="b-left-menu_point">Related changes</span></a></li>
+                    
+                        
+                            <li id="t-upload" class="b-left-menu_item"><a href="/en/Special:Upload" title="Upload files [u]" accesskey="u" class="b-left-menu_link b-darklink"><span class="b-left-menu_point">Upload file</span></a></li>
+                    
+                        
+                            <li id="t-specialpages" class="b-left-menu_item"><a href="/en/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q" class="b-left-menu_link b-darklink"><span class="b-left-menu_point">Special pages</span></a></li>
+                    
+                        
+                            <li id="t-print" class="b-left-menu_item"><a href="/en/index.php?title=Servers&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="Printable version">Printable version</span></a></li>
+                    
+                        
+                            <li id="t-permalink" class="b-left-menu_item"><a href="/en/index.php?title=Servers&amp;oldid=279778" title="Permanent link to this revision of the page" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="Permanent link">Permanent link</span></a></li>
+                    
+                        
+                            <li id="t-info" class="b-left-menu_item"><a href="/en/index.php?title=Servers&amp;action=info" class="b-left-menu_link b-darklink"><span class="b-left-menu_point" title="Page information">Page information</span></a></li>
+                                                        </ul>
+                    </div>
+        
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+                </div>
+            <!-- /panel -->
+
+            <!-- content -->
+            <div id="content" class="mw-body">
+                <a id="top"></a>
+                <div class="b-breadcrumbs"><div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a class="b-breadcrumbs_item" href="http://wiki.wargaming.net/en/Main_Page" itemprop="url" title="Homepage"><span itemprop="title">Homepage</span></a><span class='b-breadcrumbs_divider'>/</span></div><div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a class="b-breadcrumbs_item" href="http://wiki.wargaming.net/en/World_of_Tanks" itemprop="url" title="World of Tanks"><span itemprop="title">World of Tanks</span></a><span class='b-breadcrumbs_divider'>/</span></div><div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="b-breadcrumbs_item__active" itemprop="title">Servers</span></div></div>                <div class="b-cds-banner"><div class="js-wgcds-content-item-toparticle_1100x150" data-wgcds-place="TopArticle_1100x150"></div><script type="text/javascript">
+        (function() {
+            var cds_config = {
+                parameters: {
+                    host: 'cds.wargaming.net',
+                    consumer: 'WOT_WIKI_ALL',
+                    locale: 'en',
+                    accountId: 542250529
+                }
+            };
+            window.wgcds = new WGCDS.Loader('.js-wgcds-content-item-toparticle_1100x150', cds_config);
+        })();
+    </script></div>                <div id="mw-js-message" style="display:none;"></div>
+                                <!-- firstHeading -->
+                <h1 id="firstHeading" class="firstHeading"><span dir="auto">Servers</span></h1>
+
+                <!-- /firstHeading -->
+                <!-- bodyContent -->
+
+                <div id="bodyContent" class="b-user-generated">
+
+                                        <!-- tagline -->
+                    <!-- <div id="siteSub"></div> -->
+                    <!-- /tagline -->
+                                        <!-- subtitle -->
+                    <div id="contentSub"></div>
+                    <!-- /subtitle -->
+                                                                                <!-- jumpto -->
+                    <div id="jump-to-nav" class="mw-jump">
+                        Jump to:                        <a href="#mw-head">navigation</a>,                         <a href="#p-search">search</a>
+                    </div>
+                    <!-- /jumpto -->
+                                        <!-- bodycontent -->
+                    <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="Panel" class="Content">
+<div class="NavHead"><h1> <span class="mw-headline" id="Game_Servers"><div style="background-color:#C4C0B1; padding:8px;border-radius: 15px;"><h3 style="color:#34342c; font-size:100%; text-align:center; border-style:none; margin:0px;">Game Servers</span></h1></div></h1></div>
+<div class="NavContent"><div class="wot-frame-1" style="width:150px; float:right; clear:right; margin-left: 10px;">
+<h3> <span class="mw-headline" id="Game_Version">Game Version</span></h3>
+<table>
+<tr>
+<td width="95px" align="right"><b>EU Server:</b></td>
+<td width="10px"></td>
+<td><b><a href="/en/Changelog:_World_of_Tanks_(PC)_Patch_1.0.2" title="Changelog: World of Tanks (PC) Patch 1.0.2">1.0.2</a></b></td>
+</tr><tr>
+<td align="right"><b>NA Server:</b></td>
+<td></td>
+<td><b><a href="/en/Changelog:_World_of_Tanks_(PC)_Patch_1.0.2" title="Changelog: World of Tanks (PC) Patch 1.0.2">1.0.2</a></b></td>
+</tr><tr>
+<td align="right"><b>ASIA Server:</b></td>
+<td></td>
+<td><b><a href="/en/Changelog:_World_of_Tanks_(PC)_Patch_1.0.2" title="Changelog: World of Tanks (PC) Patch 1.0.2">1.0.2</a></b></td>
+</tr>
+</table>
+<p><small>More: <strong class="selflink">Servers</strong>, <a href="/en/Changelogs_for_World_of_Tanks_(PC)" title="Changelogs for World of Tanks (PC)">Changelogs</a></small>
+</p>
+</div>
+<p><br />
+</p>
+<div class="wot-frame-1" style="width:150px; float:right; clear:right; margin-left: 10px;">
+<h3> <span class="mw-headline" id="Online_Players"><span class="mw-headline" id="Game_Population_WoT">Online Players</span></span></h3>
+<table>
+<tr>
+<td align="center" colspan="3"><b>EU Server</b>
+</td>
+</tr>
+<tr data-server="EU1">
+<td align="left" class="cluster-name-container">EU1</td>
+<td width="50px"></td>
+<td> <b class="population-count-container"><a href="/en/File:Loadgif.gif" class="image"><img alt="loadgif.gif" src="http://wiki.gcdn.co/images/9/97/Loadgif.gif" width="16" height="16" /></a></b>
+</td>
+</tr>
+<tr data-server="EU2">
+<td align="left" class="cluster-name-container">EU2</td>
+<td width="50px"></td>
+<td> <b class="population-count-container"><a href="/en/File:Loadgif.gif" class="image"><img alt="loadgif.gif" src="http://wiki.gcdn.co/images/9/97/Loadgif.gif" width="16" height="16" /></a></b>
+</td>
+</tr>
+<tr></tr>
+<tr>
+<td align="center" colspan="3"><b>NA Server</b>
+</td>
+</tr>
+<tr data-server="303">
+<td align="left" class="cluster-name-container">USC</td>
+<td width="50px"></td>
+<td> <b class="population-count-container"><a href="/en/File:Loadgif.gif" class="image"><img alt="loadgif.gif" src="http://wiki.gcdn.co/images/9/97/Loadgif.gif" width="16" height="16" /></a></b>
+</td>
+</tr>
+<tr></tr>
+<tr>
+<td align="center" colspan="3"><b>ASIA Server</b>
+</td>
+</tr>
+<tr data-server="ASIA">
+<td align="left" class="cluster-name-container">ASIA</td>
+<td width="50px"></td>
+<td> <b class="population-count-container"><a href="/en/File:Loadgif.gif" class="image"><img alt="loadgif.gif" src="http://wiki.gcdn.co/images/9/97/Loadgif.gif" width="16" height="16" /></a></b>
+</td>
+</tr>
+</table>
+</div>
+<p><br />
+There are presently at least six server groups located around the world for playing World of Tanks. Each server group has its own Official Web Site. Five of the server groups are operated by Wargaming.net, while a sixth is operated by KongZhong in China. Each server runs independently, so bonuses, promotions, and time of updates are different. Progress in accounts in one server cannot be moved to another server unless in special occasions. However, they do get the same content in updates usually. It is usually best to choose a server closest to you so that your ping-rates will be low and you can be more effective in the tank of your choice.
+</p><p><b> Miscellaneous Information </b>
+</p>
+<ul class="b-standart-list"><li>Game rules allow 1 account per Server
+</li>
+<li>All normal maintenance takes about 30 to 45 minutes to complete
+</li>
+</ul>
+<p><br />
+</p>
+<div id="Panel" class="Content">
+<div class="NavHead"><h1> <span class="mw-headline" id="North_American_Server"><h3 style="font-size:75%; border-style:none; margin:0px;">North American Server</span></h1></h1></div>
+<div class="NavContent"><div class="floatleft"><a href="http://game.worldoftanks.com" target="_blank" rel="nofollow noreferrer noopener"><img alt="NA_Server.jpg" src="http://wiki.gcdn.co/images/3/35/NA_Server.jpg" width="300" height="142" /></a></div>
+<table style="background-color:#E6E5E0" width="550" cellpadding="1" cellspacing="1">
+<tr>
+<td width="150">Location:</td>
+<td><ul>
+<li><b>USA, Chicago, IL</b> (wotna3.login.wargaming.net)</li> <small>(92.223.56.14)</small>
+<li><b>Latin America, Brazil</b> (wotna4.login.wargaming.net)</li> <small>(92.223.10.13)</small>
+</ul></td>
+</tr>
+<tr>
+<td># of Clusters:</td>
+<td><b>2</b></td>
+</tr>
+<tr>
+<td>Peak Concurrent Users:</td>
+<td><b>29,000 players or more</b></td>
+</tr>
+<tr>
+<td>Website:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.worldoftanks.com/">USA Website</a>]</b></td>
+</tr>
+<tr>
+<td>Forum:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://forum.worldoftanks.com/">USA Forum</a>]</b></td>
+</tr>
+<tr>
+<td>Maintenance:</td>
+<td><ul>
+<li><b>NA East: 11:00 UTC every Monday and Thursday.</b>
+<li><b>NA West: 11:00 UTC every Tuesday and Friday.</b>
+</ul></td>
+</tr>
+<tr>
+<td>Support:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://support.worldoftanks.com/">USA Support</a>]</b></td>
+</tr>
+</table></div>
+</div>
+<div id="Panel" class="Content">
+<div class="NavHead"><h1> <span class="mw-headline" id="European_Server"><h3 style="font-size:75%; border-style:none; margin:0px;">European Server</span></h1></h1></div>
+<div class="NavContent"><div class="floatleft"><a href="http://game.worldoftanks.eu" target="_blank" rel="nofollow noreferrer noopener"><img alt="EU_Server.jpg" src="http://wiki.gcdn.co/images/f/ff/EU_Server.jpg" width="300" height="142" /></a></div>
+<table style="background-color:#E6E5E0" width="550" cellpadding="1" cellspacing="1">
+<tr>
+<td width="150">Location:</td>
+<td><ul>
+<li><b>EU1 - Bavaria, Germany</b> (login.p1.worldoftanks.eu) <small>(92.223.1.92, 92.223.1.102, 92.223.1.112, 92.223.1.122)</small> 
+<li><b>EU2 - Amsterdam, Netherlands</b> (login.p2.worldoftanks.eu) <small>(185.12.240.100, 185.12.240.110, 185.12.240.140, 185.12.240.150)</small> 
+</ul></td>
+</tr>
+<tr>
+<td># of Clusters:</td>
+<td><b>2</b></td>
+</tr>
+<tr>
+<td>Peak Concurrent Users:</td>
+<td><b>200,000 players or more</b></td>
+</tr>
+<tr>
+<td>Website:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.worldoftanks.eu/">EU Website</a>]</b></td>
+</tr>
+<tr>
+<td>Forum:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://forum.worldoftanks.eu/">EU Forum</a>]</b></td>
+</tr>
+<tr>
+<td>Maintenance:</td>
+<td><b>05:00 UTC each Monday.</b></td>
+</tr>
+<tr>
+<td>Support:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://support.worldoftanks.eu/">EU Support</a>]</b></td>
+</tr>
+</table></div>
+</div>
+<div id="Panel" class="Content">
+<div class="NavHead"><h1> <span class="mw-headline" id="Asian_Server"><h3 style="font-size:75%; border-style:none; margin:0px;">Asian Server</span></h1></h1></div>
+<div class="NavContent"><div class="floatleft"><a href="http://worldoftanks.asia" target="_blank" rel="nofollow noreferrer noopener"><img alt="SEA_server.jpg" src="http://wiki.gcdn.co/images/0/0b/SEA_server.jpg" width="300" height="143" /></a></div>
+<table style="background-color:#E6E5E0" width="550" cellpadding="1" cellspacing="1">
+<tr>
+<td width="150">Location:</td>
+<td><ul>
+<li><b>Singapore City, Republic of Singapore</b> (wotasia1.login.wargaming.net) <small>(92.223.16.65)</small></li>
+<li><b>Hong Kong, China</b> (wotasia2.login.wargaming.net) <small>(92.223.52.23)</small></li>
+<li><b>Australia</b> (wotasia3.login.wargaming.net) <small>(92.223.48.22)</small></li>
+</ul></td>
+</tr>
+<tr>
+<td># of Clusters:</td>
+<td><b>3</b></td>
+</tr>
+<tr>
+<td>Peak Concurrent Users:</td>
+<td><b>33,000 players or more</b></td>
+</tr>
+<tr>
+<td>Website:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://worldoftanks.asia/">ASIA Website</a>]</b></td>
+</tr>
+<tr>
+<td>Forum:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://forum.worldoftanks.asia/">ASIA Forum</a>]</b></td>
+</tr>
+<tr>
+<td>Maintenance:</td>
+<td><b>21:00 UTC every Monday and Thursday.</b></td>
+</tr>
+<tr>
+<td>Support:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://support.worldoftanks.asia/">ASIA Support</a>]</b></td>
+</tr>
+</table></div>
+</div>
+<div id="Panel" class="Content">
+<div class="NavHead"><h1> <span class="mw-headline" id="Russian_Server"><h3 style="font-size:75%; border-style:none; margin:0px;">Russian Server</span></h1></h1></div>
+<div class="NavContent"><div class="floatleft"><a href="http://game.worldoftanks.ru" target="_blank" rel="nofollow noreferrer noopener"><img alt="RU_server.jpg" src="http://wiki.gcdn.co/images/5/55/RU_server.jpg" width="300" height="142" /></a></div>
+<table style="background-color:#E6E5E0" width="550" cellpadding="1" cellspacing="1">
+<tr>
+<td width="150">Location:</td>
+<td><ul>
+<li><b>RU1 - Moscow, Russia</b> (login.p1.worldoftanks.net) <small>(178.20.235.129, 178.20.235.151, 178.20.235.173, 178.20.235.189)</small> 
+<li><b>RU2 - Moscow, Russia</b> (login.p2.worldoftanks.net) <small>(178.20.235.30, 178.20.235.48, 178.20.235.83, 178.20.235.89)</small>
+<li><b>RU3 - Munich, Germany</b> (login.p3.worldoftanks.net) <small>(213.252.177.90, 213.252.177.91, 213.252.177.121, 213.252.177.122)</small>
+<li><b>RU4 - Novosibirsk, Russia</b> (login.p4.worldoftanks.net) <small>(193.110.91.10, 193.110.91.46, 193.110.91.63)</small>
+<li><b>RU5 - Moscow, Russia</b> (login.p5.worldoftanks.net) <small>(94.198.55.141, 94.198.55.155, 94.198.55.174, 94.198.55.181)</small>
+<li><b>RU6 - Moscow, Russia</b> (login.p6.worldoftanks.net) <small>(188.127.241.30, 188.127.241.40, 188.127.241.50, 188.127.241.60)</small>
+<li><b>RU7 - Amsterdam, Netherlands</b> (login.p7.worldoftanks.net) <small>(185.12.241.63)</small>
+</ul></td>
+</tr>
+<tr>
+<td># of Clusters:</td>
+<td><b>7</b></td>
+</tr>
+<tr>
+<td>Peak Concurrent Users:</td>
+<td><b>1,000,000 players or more</b></td>
+</tr>
+<tr>
+<td>Website:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.worldoftanks.ru/">RU Website</a>]</b></td>
+</tr>
+<tr>
+<td>Forum:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://forum.worldoftanks.ru/">RU Forum</a>]</b></td>
+</tr>
+<tr>
+<td>Maintenance:</td>
+<td><ul>
+<li><b>RU1: 2:00 UTC every Monday, Wednesday and Friday.</b>
+<li><b>RU2: 2:00 UTC every Tuesday, Thursday and Saturday.</b>
+<li><b>RU3: 1:00 UTC every Tuesday, Thursday and Saturday.</b>
+<li><b>RU4: 1:00 UTC every Tuesday, Thursday and Saturday.</b>
+<li><b>RU5: 2:00 UTC every Tuesday, Thursday and Saturday.</b>
+<li><b>RU6: 5:30 UTC every Tuesday, Thursday and Saturday.</b>
+</ul></td>
+</tr>
+<tr>
+<td>Support:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://support.worldoftanks.ru/">RU Support</a>]</b></td>
+</tr>
+</table></div>
+</div>
+<div id="Panel" class="Content">
+<div class="NavHead"><h1> <span class="mw-headline" id="Republic_of_Korea_Server"><h3 style="font-size:75%; border-style:none; margin:0px;">Republic of Korea Server</span></h1></h1></div>
+<div class="NavContent"><div class="floatleft"><a href="http://worldoftanks.kr" target="_blank" rel="nofollow noreferrer noopener"><img alt="South_Korean_server.jpeg" src="http://wiki.gcdn.co/images/c/c5/South_Korean_server.jpeg" width="300" height="152" /></a></div>
+<table style="margin-left:305px;background-color:#E6E5E0" width="550" cellpadding="1" cellspacing="1">
+<tr>
+<td width="150">Location:</td>
+<td><ul>
+<li><b>Seoul, Republic of Korea</b> (login.worldoftanks.kr) <small>(121.78.67.11, 121.78.67.21, 121.78.67.31)</small>
+</ul></td>
+</tr>
+<tr>
+<td># of Clusters:</td>
+<td><b>1</b></td>
+</tr>
+<tr>
+<td>Peak Concurrent Users:</td>
+<td><b>6,000 players or more</b></td>
+</tr>
+<tr>
+<td>Website:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://worldoftanks.kr/">ROK Website</a>]</b></td>
+</tr>
+<tr>
+<td>Forum:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://forum.worldoftanks.kr/">ROK Forum</a>]</b></td>
+</tr>
+<tr>
+<td>Maintenance:</td>
+<td></td>
+</tr>
+<tr>
+<td>Support:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://support.worldoftanks.kr/">ROK Support</a>]</b></td>
+</tr>
+</table></div>
+</div>
+<div id="Panel" class="Content">
+<div class="NavHead"><h1> <span class="mw-headline" id="Chinese_Server"><h3 style="font-size:75%; border-style:none; margin:0px;">Chinese Server</span></h1></h1></div>
+<div class="NavContent"><table style="margin-left:305px;background-color:#E6E5E0" width="550" cellpadding="1" cellspacing="1">
+<tr>
+<td width="150">Location:</td>
+<td><ul>
+<li><b>联通(北方) - Langfang, Hebei, China</b> <small>(221.192.143.171)</small>
+<li><b>电信(华中/华东) - Shanghai, China</b> <small>(114.80.73.86)</small>
+<li><b>电信(西南/西北) - Chengdu, Sichuan, China</b> <small>(61.188.177.45)</small>
+<li><b>电信(华南新区) - Guangzhou, Guangdong, China</b>  <small>(183.61.253.44)</small>
+</ul></td>
+</tr>
+<tr>
+<td># of Clusters:</td>
+<td><b>4</b></td>
+</tr>
+<tr>
+<td>Peak Concurrent Users:</td>
+<td><b>150,000 players or more</b></td>
+</tr>
+<tr>
+<td>Website:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://wot.kongzhong.com/">CN Website</a>] (operated by KongZhong)</b></td>
+</tr>
+<tr>
+<td>Forum:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://bbs.wot.kongzhong.com/">CN Forum</a>]</b></td>
+</tr>
+<tr>
+<td>Maintenance:</td>
+<td><ul>
+<li><b><b>联通北区</b>: 23:00 UTC every Monday, Wednesday and Friday.</b>
+<li><b><b>华中/华东</b>: 22:00 UTC every Monday and Thursday.</b>
+<li><b><b>西南/西北</b>: 23:00 UTC every Monday and Thursday.</b>
+<li><b><b>华南新区</b>: 22:00 UTC every Tuesday and Friday.</b>
+</ul></td>
+</tr>
+<tr>
+<td>Support:</td>
+<td><b>[<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://wot.kongzhong.com/kefucenter/index.html">CN Support</a>]</b></td>
+</tr>
+</table></div>
+</div></div>
+</div>
+<p><br />
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.122 seconds
+Real time usage: 0.139 seconds
+Preprocessor visited node count: 242/1000000
+Preprocessor generated node count: 843/1000000
+Post‐expand include size: 23538/2097152 bytes
+Template argument size: 19714/2097152 bytes
+Highest expansion depth: 6/40
+Expensive parser function count: 0/100
+ExtLoops count: 0/500
+-->
+
+<!-- Saved in parser cache with key global_wiki_:pcache:en:idhash:1252-0!*!0!!*!2!* and timestamp 20190124170601 and revision id 279778
+ -->
+</div>                    <!-- /bodycontent -->
+                                        <!-- printfooter -->
+                    <div class="printfooter">
+                    Retrieved from "<a href="http://wiki.wargaming.net/en/index.php?title=Servers&amp;oldid=279778">http://wiki.wargaming.net/en/index.php?title=Servers&amp;oldid=279778</a>"                    </div>
+                    <!-- /printfooter -->
+                                                            <!-- catlinks -->
+                    <div class="b-wiki-panel b-wiki-panel__category  catlinks-allhidden"></div>                    <!-- /catlinks -->
+                                                            <div class="visualClear"></div>
+                    <!-- debughtml -->
+                                        <!-- /debughtml -->
+                </div>
+                <!-- /bodyContent -->
+            </div>
+            <!-- /content -->
+
+        </div>
+        <!--b-main-wrp-->
+
+    </div>
+    <!--b-main -->
+
+	<!-- footer -->
+	<div id="footer" class="b-footer">
+        <div class="l-separator l-separator__footer">
+            <div class="b-separator">
+               <div class="b-separator-right"></div>
+            </div>
+        </div><!--l-separator-->
+					<ul id="footer-info">
+									<li id="footer-info-lastmod"> This page was last modified on 21 November 2018, at 18:07.</li>
+									<li id="footer-info-viewcount">This page has been accessed 568,129 times.</li>
+							</ul>
+					<ul id="footer-places">
+									<li id="footer-places-privacy"><a href="/en/Global_wiki._Wargaming.net:Privacy_policy" title="Global wiki. Wargaming.net:Privacy policy">Privacy policy</a></li>
+									<li id="footer-places-about"><a href="/en/Global_wiki._Wargaming.net:About" title="Global wiki. Wargaming.net:About">About Global wiki. Wargaming.net</a></li>
+									<li id="footer-places-disclaimer"><a href="/en/Global_wiki._Wargaming.net:General_disclaimer" title="Global wiki. Wargaming.net:General disclaimer">Disclaimers</a></li>
+							</ul>
+		        <p class="b-copyright">© 2011–2019 Wargaming.net. All rights reserved.</p>
+					<ul id="footer-icons" class="noprint">
+				<li id="footer-poweredbyico">
+					<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+				</li>
+			</ul>
+				<div style="clear:both"></div>
+
+	</div>
+	<!-- /footer -->
+	<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"ext.commonMenu":"loading","ext.planeChars":"loading","site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="/load.php?debug=false&amp;lang=en&amp;modules=ext.commonMenu%2CplaneChars&amp;only=scripts&amp;skin=globalwiki&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.page.watch.ajax"],null,true);
+}</script>
+<script src="/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=globalwiki&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":115});
+}</script>	<div class="b-region js-location" style="display:none;">
+    <div class="b-region_location">Your location: <span class="js-location-country-text"></span></div>
+    <div class="b-region_title">To log in, select the region </br>where your account is registered</div>
+    <div class="l-region_flag">
+        <a class="b-region_flag b-region_flag__big b-region_flag__big-ru js-location-big-realm js-region_flag" href="#"><span class="b-region_lang b-region_lang__big"></span></a>
+
+                    <a class="b-region_flag b-region_flag__ru js-region_flag" href="/en/index.php?title=Special:OpenIDLogin&amp;realm=ru&amp;returnto=Servers"><span class="b-region_lang">CIS</span></a>
+                    <a class="b-region_flag b-region_flag__eu js-region_flag" href="/en/index.php?title=Special:OpenIDLogin&amp;realm=eu&amp;returnto=Servers"><span class="b-region_lang">Europe</span></a>
+                    <a class="b-region_flag b-region_flag__na js-region_flag" href="/en/index.php?title=Special:OpenIDLogin&amp;realm=na&amp;returnto=Servers"><span class="b-region_lang">North America</span></a>
+                    <a class="b-region_flag b-region_flag__sea js-region_flag" href="/en/index.php?title=Special:OpenIDLogin&amp;realm=sea&amp;returnto=Servers"><span class="b-region_lang">Asia</span></a>
+                    <a class="b-region_flag b-region_flag__ko js-region_flag" href="/en/index.php?title=Special:OpenIDLogin&amp;realm=ko&amp;returnto=Servers"><span class="b-region_lang">Republic of Korea</span></a>
+        
+                <div class="clearfix b-region_title b-region_title__indent">Or use Microsoft Login to enter WoT XBOX ecosystem<span class="b-region_arrow"></span></div>
+        
+        <a class="b-region_flag b-region_flag__xbox js-region_flag" href="/en/index.php?title=Special:OpenIDLogin&amp;realm=xbox&amp;returnto=Servers">
+            <span class="b-region_lang b-region_lang__indent">Log in</span>
+        </a>
+        
+        <div class="b-form_option">
+            <input name="hideloginsplash" type="checkbox" value="1" id="hideloginsplash" class="">
+<label for="hideloginsplash" class="">Do not show this dialog again</label>        </div>
+    </div>
+</div>    <span class="js-dropdown-menu"></span>
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T4T99Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T4T99Q');
+</script>
+<!-- End Google Tag Manager -->    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6815601b35","applicationID":"188815796","transactionName":"DQklBh4gIzo1NAEzNzRDBCcfNSIkezQaNCw\/AjN9GigoPg==","queueTime":0,"applicationTime":142,"atts":"IU4mcFY6MDQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
